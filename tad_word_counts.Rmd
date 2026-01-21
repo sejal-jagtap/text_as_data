@@ -1,0 +1,177 @@
+---
+title: "HW 1, Sejal Jagtap, ssj40"
+output: html_notebook
+---
+
+
+
+```{r}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(tidytext)
+library(ggplot2)
+library(forcats)
+library(tibble)
+library(scales)
+```
+```{r}
+# Check current working directory
+getwd()
+```
+
+```{r}
+# Check if files are present in texts/
+list.files("texts")
+
+```
+```{r}
+# Read the two files from local directory texts/:
+file_a <- "texts/A07594__Circle_of_Commerce.txt"
+file_b <- "texts/B14801__Free_Trade.txt"
+
+# Read the raw text files into R
+text_a <- read_file(file_a)
+text_b <- read_file(file_b)
+
+# Combine into a tibble for tidytext workflows
+texts <- tibble(
+  doc_title = c("Text A", "Text B"),
+  text = c(text_a, text_b)
+)
+
+texts
+```
+```{r}
+#Confirm if text is loaded
+cat(substr(text_a, 1, 500))
+```
+
+I. Create a diagnostics table (before stopword removal)
+
+1. texts: tibble where each row corresponds to a document.
+2. mutate(n_chars = str_length(text)): computes the number of characters in each doc, adds a new column n_chars
+3. unnest_tokens(word, text): breaks each document's text into individual word tokens. Converts data from one row per document to one row per word token.                                                                    Tokenized words are stored in a new column 'word'.
+4. mutate(word = str_to_lower(word)) :converts to lower case
+5. group_by(doc_title) :groups all word tokens back by their original document.
+6. summarise :multiple rows per document are collapsed back into one row per document.
+7. n_chars = first(n_chars): nchars is repeated for every word in the document.first(n_chars) safely keeps the original document-level value.
+8. n_word_tokens = n(): Count the total number of word tokens in each document.(before stopword removal)
+9. n_word_types = n_distinct(word): Count the number of unique word types in each document.
+10..groups = "drop": Ungroup the result so the final tibble is not grouped.
+
+```{r}
+corpus_diagnostics <- texts %>%           
+  mutate(n_chars = str_length(text)) %>%  
+  unnest_tokens(word, text) %>%           
+  mutate(word = str_to_lower(word)) %>%   
+  group_by(doc_title) %>%                
+  summarise(                              
+    n_chars = first(n_chars),              
+    n_word_tokens = n(),                  
+    n_word_types = n_distinct(word),      
+    .groups = "drop"                       
+  )
+
+corpus_diagnostics
+```
+II.Interpret the diagnostics 
+
+1. Are Text A and Text B comparable in length?
+
+As per above observation, Text A contains 191,605 characters and 33,889 word tokens, while Text B contains 114,211 characters and 19,922 word tokens, making Text A longer than Text B by both measures. To conclude, they are not directly comparable in length.
+
+2. If they differ substantially, what does that imply for interpreting raw frequency
+comparisons?
+
+The raw word frequency would favor Text A, due to its greater volume of text rather than actual differences in use of language. A direct comparison between texts would therefore be misleading and inaccurate.
+
+```{r}
+# Start with tidytext's built-in stopword list
+data("stop_words")
+
+# Add our own project-specific stopwords (you can, and will, expand this list later)
+custom_stopwords <- tibble(
+  word = c(
+    "vnto", "haue", "doo", "hath", "bee", "ye", "thee"
+  )
+)
+
+all_stopwords <- bind_rows(stop_words, custom_stopwords) %>%
+  distinct(word)
+
+all_stopwords %>% slice(1:10)
+```
+
+```{r}
+word_counts <- texts %>%
+  unnest_tokens(word, text) %>%
+  mutate(word = str_to_lower(word)) %>%
+  anti_join(all_stopwords, by = "word") %>%
+  count(doc_title, word, sort = TRUE)
+
+word_counts
+```
+
+```{r}
+doc_lengths <- word_counts %>%
+  group_by(doc_title) %>%
+  summarise(
+    total_words = sum(n),
+    .groups = "drop"
+  )
+
+```
+
+```{r}
+word_counts_normalized <- word_counts %>%
+  left_join(doc_lengths, by = "doc_title") %>%
+  mutate(relative_freq = n / total_words)
+
+```
+
+
+```{r}
+# Compare trade in both texts
+trade_comparison <- word_counts_normalized %>%
+  filter(word == "trade") %>%
+  select(doc_title, n, total_words, relative_freq)
+
+trade_comparison
+
+```
+
+```{r}
+
+plot_n_words <- 20
+
+word_comparison_tbl_norm <- word_counts_normalized %>%
+  pivot_wider(
+    names_from = doc_title,
+    values_from = n,   
+    values_fill = 0
+  ) %>%
+  mutate(max_n = pmax(`Text A`, `Text B`)) %>%   
+  arrange(desc(max_n))   
+
+top_words <- word_comparison_tbl_norm %>%
+  slice_head(n = plot_n_words) %>%
+  select(word)
+
+word_plot_data_norm <- word_counts_normalized %>%
+  semi_join(top_words, by = "word") %>%
+  mutate(word = fct_reorder(word, relative_freq, .fun = max))
+ 
+
+ggplot(word_plot_data_norm, aes(x = relative_freq, y = word)) +
+  geom_col() +
+  facet_wrap(~ doc_title, scales = "free_x") +
+  labs(
+    title = "Top 20 Words by Relative Frequency (Stopwords Removed)",
+    x = "Relative frequency (proportion of total words)",
+    y = NULL
+  ) +
+  theme_minimal()
+
+```
