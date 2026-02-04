@@ -1,0 +1,10 @@
+---
+title: "HW2 – Sentiment Analysis"
+author: "Sejal Jagtap"
+output: html_document
+---
+
+```{r}
+plot(cars)
+```
+
