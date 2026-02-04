@@ -47,7 +47,7 @@ sentiment_net_raw <- tidy_texts %>%
     values_from = n,
     values_fill = 0
   ) %>%
-  mutate(net_sentiment = positive - negative) #compute net sentiment
+  mutate(raw_net_sentiment = positive - negative) #compute net sentiment
 
 sentiment_net_raw
 
@@ -59,6 +59,9 @@ sentiment_net_raw
 tfidf_words <- tidy_texts %>%
   count(doc_title, word) %>% #started from count and not raw text
   bind_tf_idf(word, doc_title, n) #adds new columns does not remove old ones
+
+sentiment_tfidf <- tfidf_words %>%
+  inner_join(bing, by = "word")
 
 sentiment_net_tfidf <- tfidf_words %>%
   inner_join(bing, by = "word") %>% #join after tf-idf
@@ -72,11 +75,23 @@ sentiment_net_tfidf <- tfidf_words %>%
     values_from = weighted_sentiment,
     values_fill = 0
   ) %>%
-  mutate(net_sentiment = positive - negative)
+  mutate(tfidf_net_sentiment = positive - negative)
 
 sentiment_net_tfidf
 
 ```
+
+```{r}
+# Check which words drive TF-IDF sentiment
+
+sentiment_tfidf %>%
+  arrange(desc(tf_idf)) %>%
+  group_by(doc_title) %>%
+  slice_head(n = 10)
+
+```
+
+
 ```{r}
 
 # Compare Raw vs. TF-IDF Sentiment 
@@ -86,7 +101,7 @@ final_comparison <- sentiment_net_raw %>%
     doc_title,
     raw_positive = positive,
     raw_negative = negative,
-    raw_net = net_sentiment
+    raw_net = raw_net_sentiment
   ) %>%
   left_join(
     sentiment_net_tfidf %>%
@@ -94,7 +109,7 @@ final_comparison <- sentiment_net_raw %>%
         doc_title,
         tfidf_positive = positive,
         tfidf_negative = negative,
-        tfidf_net = net_sentiment
+        tfidf_net = tfidf_net_sentiment
       ),
     by = "doc_title"
   )
@@ -102,4 +117,9 @@ final_comparison <- sentiment_net_raw %>%
 final_comparison
 
 ```
+```{r}
+write_csv(final_comparison, "sentiment_comparison_hw2.csv")
+
+```
+
 
