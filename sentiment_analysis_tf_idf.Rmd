@@ -4,7 +4,102 @@ author: "Sejal Jagtap"
 output: html_document
 ---
 
+```{r setup, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(tidytext)
+
+```
+
 ```{r}
-plot(cars)
+file_a <- "texts/A07594__Circle_of_Commerce.txt"
+file_b <- "texts/B14801__Free_Trade.txt"
+
+text_a <- read_file(file_a)
+text_b <- read_file(file_b)
+
+texts <- tibble(
+  doc_title = c("Text A", "Text B"),
+  text = c(text_a, text_b)
+)
+
+texts
+```
+
+```{r}
+#Tokenize and remove stop-words
+
+tidy_texts <- texts %>%
+  unnest_tokens(word, text) %>% # tokenizes text into one word per row, lowercases word   
+  anti_join(stop_words, by = "word") #removes stop words using built-in tidytext list
+
+```
+
+```{r}
+# Raw count sentiment
+
+bing <- get_sentiments("bing") #returns a table with word and sentiment
+
+sentiment_net_raw <- tidy_texts %>%
+  inner_join(bing, by = "word") %>% #keeps only words present in the Bing dictionary, assigns each word +ve/-ve label
+  count(doc_title, sentiment) %>% #counts how many positive and negative words occur per document
+  pivot_wider(
+    names_from = sentiment,
+    values_from = n,
+    values_fill = 0
+  ) %>%
+  mutate(net_sentiment = positive - negative) #compute net sentiment
+
+sentiment_net_raw
+
+```
+```{r}
+
+# Tf-IDF weighted sentiment
+
+tfidf_words <- tidy_texts %>%
+  count(doc_title, word) %>% #started from count and not raw text
+  bind_tf_idf(word, doc_title, n) #adds new columns does not remove old ones
+
+sentiment_net_tfidf <- tfidf_words %>%
+  inner_join(bing, by = "word") %>% #join after tf-idf
+  group_by(doc_title, sentiment) %>%
+  summarise(
+    weighted_sentiment = sum(tf_idf),
+    .groups = "drop"
+  ) %>%
+  pivot_wider(
+    names_from = sentiment,
+    values_from = weighted_sentiment,
+    values_fill = 0
+  ) %>%
+  mutate(net_sentiment = positive - negative)
+
+sentiment_net_tfidf
+
+```
+```{r}
+
+# Compare Raw vs. TF-IDF Sentiment 
+
+final_comparison <- sentiment_net_raw %>%
+  select(
+    doc_title,
+    raw_positive = positive,
+    raw_negative = negative,
+    raw_net = net_sentiment
+  ) %>%
+  left_join(
+    sentiment_net_tfidf %>%
+      select(
+        doc_title,
+        tfidf_positive = positive,
+        tfidf_negative = negative,
+        tfidf_net = net_sentiment
+      ),
+    by = "doc_title"
+  )
+
+final_comparison
+
 ```
 
