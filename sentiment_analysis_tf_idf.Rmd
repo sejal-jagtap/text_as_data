@@ -123,3 +123,48 @@ write_csv(final_comparison, "sentiment_comparison_hw2.csv")
 ```
 
 
+Challenge
+
+```{r}
+total_tfidf_sentiment <- sentiment_tfidf %>%
+  group_by(doc_title) %>%
+  summarise(
+    total_tfidf = sum(tf_idf),
+    .groups = "drop"
+  )
+
+total_tfidf_sentiment
+
+```
+```{r}
+top5_sentiment_words <- sentiment_tfidf %>%
+  arrange(desc(tf_idf)) %>%
+  group_by(doc_title) %>%
+  slice_head(n = 5)
+
+top5_sentiment_words
+
+```
+```{r}
+top5_tfidf_totals <- top5_sentiment_words %>%
+  group_by(doc_title) %>%
+  summarise(
+    top5_tfidf = sum(tf_idf),
+    .groups = "drop"
+  )
+
+top5_tfidf_totals
+
+```
+
+```{r}
+sentiment_concentration <- total_tfidf_sentiment %>%
+  left_join(top5_tfidf_totals, by = "doc_title") %>%
+  mutate(
+    proportion_top5 = top5_tfidf / total_tfidf
+  )
+
+sentiment_concentration
+
+```
+
