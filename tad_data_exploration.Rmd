@@ -4,8 +4,41 @@ output: html_notebook
 ---
 
 ```{r}
+library(tidyverse)
+library(tidytext)
+library(stringr)
+library(widyr)
 
 ```
+
+
+```{r}
+getwd()
+```
+```{r}
+list.files("texts", full.names = TRUE)
+```
+```{r}
+read_file("texts/A06785.txt")
+```
+
+
+```{r}
+
+files <- list.files("texts",
+                    pattern = "\\.txt$",
+                    full.names = TRUE)
+
+texts <- tibble(
+  doc_id = tools::file_path_sans_ext(basename(files)),
+  text = map_chr(files, read_file)
+)
+
+print(texts)
+```
+
+
+
 
 
 
