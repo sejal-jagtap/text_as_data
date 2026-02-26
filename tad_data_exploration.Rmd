@@ -166,10 +166,6 @@ top_terms <- tf_idf_data %>%
 top_terms
 ```
 
-Q1.Do some documents share distinctive vocabulary?
-
-Yes. Even though TF–IDF measures distinctiveness relative to the entire corpus, several words appear as top TF–IDF terms in multiple documents. Words like monies, realm, commodities, exchange, and price show up as distinctive across more than one text.
-This suggests that while each document has its own lexical profile, they still share a common conceptual vocabulary. In other words, TF–IDF highlights differences, but those differences are occurring within a shared thematic space. The documents are distinct, but not disconnected.
 
 ```{r}
 top_terms <- tf_idf_data %>%
@@ -196,8 +192,35 @@ purrr::walk(names(doc_list), function(doc) {
 })
 ```
 
+```{r}
+# Create folder for TF–IDF distinctiveness results
+
+dir.create("tfidf_distinctiveness", showWarnings = FALSE)
+
+# Split results by document
+doc_list <- split(top_terms, top_terms$doc_id)
+
+# Export each document's distinctive terms
+purrr::walk(names(doc_list), function(doc) {
+  write_csv(doc_list[[doc]],
+            file.path("tfidf_distinctiveness",
+                      paste0("distinctive_terms_", doc, ".csv")))
+})
+```
+
+```{r}
+list.files("tfidf_distinctiveness")
+```
+
+
+
+Q1.Do some documents share distinctive vocabulary?
+
+Yes. Even though TF–IDF measures distinctiveness relative to the entire corpus, several words appear as top TF–IDF terms in multiple documents. Words like monies, realm, commodities, exchange, and price show up as distinctive across more than one text.
+This suggests that while each document has its own lexical profile, they still share a common conceptual vocabulary. In other words, TF–IDF highlights differences, but those differences are occurring within a shared thematic space. The documents are distinct, but not disconnected.
 
 Q2.Are distinctive terms topical, rhetorical, or technical?
+
 Most of the distinctive terms appear to be topical or technical, rather than purely rhetorical.
 
 For example:
@@ -214,3 +237,5 @@ Some high TF–IDF words occur only once in a document (n = 1), which is expecte
 So overall, distinctiveness seems content-driven rather than noise-driven.
 
 The TF–IDF results suggest that the corpus contains both shared vocabulary and document-specific emphasis. The documents appear to operate within a common economic and institutional framework, but each text highlights different aspects of that framework. This indicates structured variation rather than random divergence.
+
+
