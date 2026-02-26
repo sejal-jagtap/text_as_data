@@ -172,17 +172,30 @@ Yes. Even though TF–IDF measures distinctiveness relative to the entire corpus
 This suggests that while each document has its own lexical profile, they still share a common conceptual vocabulary. In other words, TF–IDF highlights differences, but those differences are occurring within a shared thematic space. The documents are distinct, but not disconnected.
 
 ```{r}
-top_terms %>%
-  count(word, sort = TRUE) %>%
-  filter(n > 1)
+top_terms <- tf_idf_data %>%
+  group_by(doc_id) %>%
+  slice_max(tf_idf, n = 15) %>%
+  ungroup()
 ```
 
 ```{r}
-tf_idf_data %>%
-  filter(n == 1) %>%
-  arrange(desc(tf_idf)) %>%
-  head(20)
+colnames(top_terms)
 ```
+
+
+
+```{r}
+# Export one TF–IDF table per document
+
+dir.create("tfidf_results", showWarnings = FALSE)
+
+purrr::walk(names(doc_list), function(doc) {
+  write_csv(doc_list[[doc]],
+            file.path("tfidf_results",
+                      paste0("tf_idf_", doc, ".csv")))
+})
+```
+
 
 Q2.Are distinctive terms topical, rhetorical, or technical?
 Most of the distinctive terms appear to be topical or technical, rather than purely rhetorical.
