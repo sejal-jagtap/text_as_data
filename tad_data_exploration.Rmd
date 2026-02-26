@@ -29,16 +29,175 @@ files <- list.files("texts",
                     pattern = "\\.txt$",
                     full.names = TRUE)
 
-texts <- tibble(
+corpus_raw <- tibble(
   doc_id = tools::file_path_sans_ext(basename(files)),
   text = map_chr(files, read_file)
 )
 
-print(texts)
+print(corpus_raw)
+```
+
+```{r}
+# Count words that contain "ſ" before replacement
+sum(str_detect(corpus_raw$text, "ſ"))
 ```
 
 
+Step 0: Normalization
+
+In preparing the corpus for analysis, I adopted a minimal-intervention 
+normalization strategy. The goal was to ensure lexical comparability across 
+documents while preserving historically meaningful orthographic variation.
 
 
+0.1) First, I replaced the Early Modern long S character (ſ) with the modern 
+letter “s,” as required. Without this correction, words like “ſtate” and “state”
+would be counted as different words, which would distort the analysis.
+
+0.2) Second, I converted all text to lowercase and removed extra spaces. 
+Lowercasing ensures that words such as “State” and “state” are treated as the 
+same word. Collapsing extra whitespace prevents formatting inconsistencies 
+from interfering with tokenization.
+
+I chose not to modernize spelling or standardize variations such as u/v or 
+archaic spellings. While doing so might make the texts look more uniform, 
+it could also erase meaningful stylistic or historical differences between 
+authors. Since this assignment focuses on exploring patterns rather than rewriting 
+the texts, I aimed to preserve the original language as much as possible.
+
+```{r}
+corpus_normalized <- corpus_raw %>%
+  mutate(
+    text = str_replace_all(text, "ſ", "s") %>%   # normalize long S
+           str_replace_all("\\s+", " ") %>%     # collapse extra whitespace
+           str_to_lower()                        # standardize case
+  )
+
+corpus_normalized
+```
+
+During tokenization, I also removed punctuation, standalone numbers, common 
+stopwords (like “the” and “and”), and tokens containing obvious OCR errors 
+(such as ● symbols). These elements do not carry meaningful content for this 
+type of analysis and would otherwise introduce noise.
+
+Overall, I used a minimal cleaning approach: correcting only what was necessary 
+for accurate comparison while preserving the integrity of the original texts.
 
 
+```{r}
+tokens_df <- corpus_normalized %>%
+  unnest_tokens(word, text)
+
+```
+
+```{r}
+
+tokens_df <- tokens_df %>%
+  anti_join(stop_words, by = "word") %>%         # remove stopwords
+  filter(!str_detect(word, "^[0-9]+$")) %>%      # remove numbers
+  filter(!str_detect(word, "●"))                 # remove OCR artifacts
+
+# tokens_df
+```
+
+```{r}
+#Check document length balance
+tokens_df %>%
+  count(doc_id, sort = TRUE)
+```
+```{r}
+# Check most frequent words
+
+tokens_df %>%
+  count(word, sort = TRUE) %>%
+  slice_max(n, n = 20)
+```
+
+
+```{r}
+# Vocabulary size per document
+
+tokens_df %>%
+  group_by(doc_id) %>%
+  summarise(unique_words = n_distinct(word))
+```
+
+```{r}
+# Check for any non-alphabetic tokens
+
+tokens_df %>%
+  filter(str_detect(word, "[^a-z]")) %>%
+  count(word, sort = TRUE)
+```
+
+These are real words and carry meaning, not OCR errors.
+
+Approach 1: TF - IDF
+
+```{r}
+# Step 1: Document feature matrix
+
+dfm_counts <- tokens_df %>%
+  count(doc_id, word, sort = TRUE)
+
+dfm_counts
+```
+
+```{r}
+
+# Step 2: Compute TF–IDF weights
+
+tf_idf_data <- dfm_counts %>%
+  bind_tf_idf(word, doc_id, n) %>%
+  arrange(desc(tf_idf))
+
+tf_idf_data
+```
+```{r}
+
+# Step 3: Top distinctive terms per document
+
+top_terms <- tf_idf_data %>%
+  group_by(doc_id) %>%
+  slice_max(tf_idf, n = 15) %>%
+  ungroup()
+
+top_terms
+```
+
+Q1.Do some documents share distinctive vocabulary?
+
+Yes. Even though TF–IDF measures distinctiveness relative to the entire corpus, several words appear as top TF–IDF terms in multiple documents. Words like monies, realm, commodities, exchange, and price show up as distinctive across more than one text.
+This suggests that while each document has its own lexical profile, they still share a common conceptual vocabulary. In other words, TF–IDF highlights differences, but those differences are occurring within a shared thematic space. The documents are distinct, but not disconnected.
+
+```{r}
+top_terms %>%
+  count(word, sort = TRUE) %>%
+  filter(n > 1)
+```
+
+```{r}
+tf_idf_data %>%
+  filter(n == 1) %>%
+  arrange(desc(tf_idf)) %>%
+  head(20)
+```
+
+Q2.Are distinctive terms topical, rhetorical, or technical?
+Most of the distinctive terms appear to be topical or technical, rather than purely rhetorical.
+
+For example:
+-> commodities, exchange, and price reflect economic or commercial terminology.
+-> india and barbadoes indicate geographic or imperial contexts.
+-> monies and realm reflect institutional or fiscal language.
+
+This suggests that TF–IDF is capturing differences in subject matter and emphasis, rather than stylistic differences. The distinctiveness appears to reflect what each text is about, not just how it is written.
+
+Q3.Is distinctiveness driven by noise or formatting?
+
+There is little evidence that TF–IDF is being driven by noise. After removing stopwords, numbers, and OCR artifacts, the high TF–IDF terms are historically meaningful words rather than formatting errors or random fragments.
+Some high TF–IDF words occur only once in a document (n = 1), which is expected because the inverse document frequency (IDF) component rewards rarity across the corpus. However, these words still appear to be substantively relevant (e.g., specific trade goods or place names), not technical glitches.
+So overall, distinctiveness seems content-driven rather than noise-driven.
+
+The TF–IDF results suggest that the corpus contains both shared vocabulary and document-specific emphasis. The documents appear to operate within a common economic and institutional framework, but each text highlights different aspects of that framework. This indicates structured variation rather than random divergence.
