@@ -328,12 +328,6 @@ ggplot(heat_df,
   )
 ```
 
-
-
-
-
-
-
 APPROACH 3 -  Syntactic complexity profile
 
 ```{r}
