@@ -428,3 +428,26 @@ write_csv(example_sentences,
 list.files("syntactic_results")
 ```
 
+```{r}
+sentences_full <- parsed_df %>%
+  group_by(doc_id, sentence_id) %>%
+  summarise(
+    sentence = paste(token, collapse = " "),
+    word_count = n(),
+    .groups = "drop"
+  )
+
+example_A32827 <- sentences_full %>%
+  filter(doc_id == "A32827") %>%
+  slice_max(word_count, n = 1)
+
+example_A93819 <- sentences_full %>%
+  filter(doc_id == "A93819") %>%
+  slice_min(word_count, n = 1)
+
+example_sentences <- bind_rows(example_A32827,
+                               example_A93819)
+
+example_sentences
+```
+
