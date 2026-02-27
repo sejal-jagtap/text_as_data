@@ -1,6 +1,6 @@
 ---
 title: "Data Exploration"
-output: html_notebook
+output: html_document
 ---
 
 Introduction: For this assignment, I analyzed a corpus of Early Modern political economy texts provided on Canvas. These documents were intentionally selected as part of a shared intellectual tradition, allowing for systematic comparison. After cleaning and normalizing the texts, I conducted an exploratory analysis using three approaches: TF–IDF to identify lexically distinctive terms, Pearson correlation to measure similarity between documents, and syntactic complexity measures to compare structural writing patterns across two selected texts. Together, these methods allowed me to examine how the texts relate to one another both in vocabulary use and grammatical structure.
@@ -183,6 +183,9 @@ colnames(top_terms)
 
 ```{r}
 # Export one TF–IDF table per document
+
+# Split TF-IDF results by document
+doc_list <- split(top_terms, top_terms$doc_id)
 
 dir.create("tfidf_results", showWarnings = FALSE)
 
