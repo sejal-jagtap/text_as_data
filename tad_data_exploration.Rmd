@@ -304,6 +304,35 @@ least_similar <- heat_df %>%
 
 least_similar
 ```
+```{r}
+ggplot(heat_df,
+       aes(x = doc_j,
+           y = doc_i,
+           fill = r)) +
+  geom_tile() +
+  coord_fixed() +
+  scale_fill_gradient2(
+    low = "#2C7BB6",      # deep blue
+    mid = "#FFFFBF",      # yellow
+    high = "#D7191C",     # dark red
+    midpoint = 0.5
+  ) +
+  labs(title = "Pearson Correlation Between Documents",
+       x = NULL,
+       y = NULL,
+       fill = "Correlation") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    panel.grid = element_blank()
+  )
+```
+
+
+
+
+
+
 
 APPROACH 3 -  Syntactic complexity profile
 
@@ -450,4 +479,44 @@ example_sentences <- bind_rows(example_A32827,
 
 example_sentences
 ```
+```{r}
+syntactic_measures <- summary_table %>%
+  mutate(
+    DC_per_S = dep_clauses / total_sentences,
+    DC_per_C = dep_clauses / total_clauses,
+    Coord_per_S = coordination / total_sentences,
+    Coord_per_C = coordination / total_clauses,
+    CN_per_S = complex_nominals / total_sentences,
+    CN_per_C = complex_nominals / total_clauses
+  ) %>%
+  select(doc_id, MLS, C_per_S,
+         DC_per_S, DC_per_C,
+         Coord_per_S, Coord_per_C,
+         CN_per_S, CN_per_C)
+```
+
+```{r}
+syntactic_long <- syntactic_measures %>%
+  pivot_longer(-doc_id,
+               names_to = "measure",
+               values_to = "value")
+```
+
+```{r}
+ggplot(syntactic_long,
+       aes(x = measure,
+           y = value,
+           fill = doc_id)) +
+  geom_col(position = "dodge") +
+  facet_wrap(~ measure, scales = "free") +
+  scale_fill_manual(values = c("#4B3F72", "#1B998B")) +
+  labs(title = "Syntactic Complexity Profile",
+       x = NULL,
+       y = "Value",
+       fill = "Document") +
+  theme_minimal() +
+  theme(axis.text.x = element_blank(),
+        strip.text = element_text(face = "bold"))
+```
+
 
