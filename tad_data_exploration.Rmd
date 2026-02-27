@@ -133,7 +133,7 @@ tokens_df %>%
 
 These are real words and carry meaning, not OCR errors.
 
-Approach 1: TF - IDF
+APPROACH 1: TF - IDF
 
 ```{r}
 # Step 1: Document feature matrix
@@ -213,29 +213,218 @@ list.files("tfidf_distinctiveness")
 ```
 
 
+APPROACH 2 - Pearson Correlation
 
-Q1.Do some documents share distinctive vocabulary?
+```{r}
+# Load required libraries
 
-Yes. Even though TF–IDF measures distinctiveness relative to the entire corpus, several words appear as top TF–IDF terms in multiple documents. Words like monies, realm, commodities, exchange, and price show up as distinctive across more than one text.
-This suggests that while each document has its own lexical profile, they still share a common conceptual vocabulary. In other words, TF–IDF highlights differences, but those differences are occurring within a shared thematic space. The documents are distinct, but not disconnected.
+library(quanteda)
+library(quanteda.textstats)
+library(tidyverse)
 
-Q2.Are distinctive terms topical, rhetorical, or technical?
+```
 
-Most of the distinctive terms appear to be topical or technical, rather than purely rhetorical.
+```{r}
+# Create quanteda corpus
 
-For example:
--> commodities, exchange, and price reflect economic or commercial terminology.
--> india and barbadoes indicate geographic or imperial contexts.
--> monies and realm reflect institutional or fiscal language.
+corpus_quanteda <- corpus(corpus_normalized, text_field = "text")
+#corpus_quanteda
+```
 
-This suggests that TF–IDF is capturing differences in subject matter and emphasis, rather than stylistic differences. The distinctiveness appears to reflect what each text is about, not just how it is written.
+```{r}
+# Tokenize
 
-Q3.Is distinctiveness driven by noise or formatting?
+tokens_quanteda <- tokens(
+  corpus_quanteda,
+  remove_punct = TRUE,
+  remove_numbers = TRUE
+)
 
-There is little evidence that TF–IDF is being driven by noise. After removing stopwords, numbers, and OCR artifacts, the high TF–IDF terms are historically meaningful words rather than formatting errors or random fragments.
-Some high TF–IDF words occur only once in a document (n = 1), which is expected because the inverse document frequency (IDF) component rewards rarity across the corpus. However, these words still appear to be substantively relevant (e.g., specific trade goods or place names), not technical glitches.
-So overall, distinctiveness seems content-driven rather than noise-driven.
+```
 
-The TF–IDF results suggest that the corpus contains both shared vocabulary and document-specific emphasis. The documents appear to operate within a common economic and institutional framework, but each text highlights different aspects of that framework. This indicates structured variation rather than random divergence.
+```{r}
+# Remove stop words
+tokens_quanteda <- tokens_remove(tokens_quanteda, stopwords("en"))
 
+#tokens_quanteda
+```
+
+```{r}
+# Create DFM
+dfm_counts <- dfm(tokens_quanteda)
+
+dfm_counts
+```
+```{r}
+dfm_trimmed <- dfm_trim(dfm_counts, min_termfreq = 5)
+
+dfm_trimmed
+```
+
+```{r}
+sim_r <- textstat_simil(dfm_trimmed,
+                        margin = "documents",
+                        method = "correlation")
+
+r_mat <- as.matrix(sim_r)
+
+r_mat <- round(r_mat, 3)
+
+r_mat[1:5, 1:5]
+```
+```{r}
+heat_df <- as.data.frame(r_mat) %>%
+  rownames_to_column("doc_i") %>%
+  pivot_longer(-doc_i,
+               names_to = "doc_j",
+               values_to = "r") %>%
+  filter(doc_i != doc_j)
+
+# Most similar pairs
+most_similar <- heat_df %>%
+  arrange(desc(r)) %>%
+  distinct(pmin(doc_i, doc_j),
+           pmax(doc_i, doc_j),
+           .keep_all = TRUE) %>%
+  slice_head(n = 2)
+
+most_similar
+
+```
+```{r}
+# Least similar pairs
+least_similar <- heat_df %>%
+  arrange(r) %>%
+  distinct(pmin(doc_i, doc_j),
+           pmax(doc_i, doc_j),
+           .keep_all = TRUE) %>%
+  slice_head(n = 2)
+
+
+
+least_similar
+```
+
+APPROACH 3 -  Syntactic complexity profile
+
+```{r}
+library(udpipe)
+library(dplyr)
+library(stringr)
+```
+
+```{r}
+model <- udpipe_download_model(language = "english")
+ud_model <- udpipe_load_model(model$file_model)
+```
+```{r}
+#Extract two texts 
+
+text_subset <- corpus_normalized %>%
+  filter(doc_id %in% c("A32827", "A93819"))
+```
+
+```{r}
+parsed <- udpipe_annotate(ud_model,
+                          x = text_subset$text,
+                          doc_id = text_subset$doc_id)
+
+parsed_df <- as.data.frame(parsed)
+```
+
+```{r}
+# MLS
+
+sentence_lengths <- parsed_df %>%
+  group_by(doc_id, sentence_id) %>%
+  summarise(words = n(), .groups = "drop") %>%
+  group_by(doc_id) %>%
+  summarise(MLS = mean(words))
+```
+
+```{r}
+# Clauses per sentence
+
+clauses <- parsed_df %>%
+  filter(upos == "VERB") %>%
+  group_by(doc_id) %>%
+  summarise(total_clauses = n())
+```
+
+```{r}
+sentences <- parsed_df %>%
+  distinct(doc_id, sentence_id) %>%
+  count(doc_id, name = "total_sentences")
+```
+
+```{r}
+cs_ratio <- clauses %>%
+  left_join(sentences, by = "doc_id") %>%
+  mutate(C_per_S = total_clauses / total_sentences)
+```
+
+```{r}
+colnames(parsed_df)
+```
+
+
+
+```{r}
+# Dependent Clauses
+
+dependent_clauses <- parsed_df %>%
+  filter(dep_rel %in% c("ccomp", "xcomp", "advcl", "acl")) %>%
+  group_by(doc_id) %>%
+  summarise(dep_clauses = n())
+```
+
+```{r}
+# Coordination
+
+coordination <- parsed_df %>%
+  filter(dep_rel == "conj") %>%
+  group_by(doc_id) %>%
+  summarise(coordination = n())
+```
+
+```{r}
+# Complex Nominals
+
+complex_nominals <- parsed_df %>%
+  filter(dep_rel %in% c("amod", "nmod", "compound")) %>%
+  group_by(doc_id) %>%
+  summarise(complex_nominals = n())
+```
+
+```{r}
+summary_table <- sentence_lengths %>%
+  left_join(cs_ratio, by = "doc_id") %>%
+  left_join(dependent_clauses, by = "doc_id") %>%
+  left_join(coordination, by = "doc_id") %>%
+  left_join(complex_nominals, by = "doc_id")
+
+summary_table
+```
+
+```{r}
+# Extract example sentences
+example_sentences <- parsed_df %>%
+  group_by(doc_id, sentence_id) %>%
+  summarise(sentence = paste(token, collapse = " "),
+            .groups = "drop") %>%
+  group_by(doc_id) %>%
+  slice_sample(n = 1)
+```
+
+```{r}
+dir.create("syntactic_results", showWarnings = FALSE)
+
+write_csv(example_sentences,
+          file.path("syntactic_results",
+                    "syntactic_example_sentences.csv"))
+```
+
+```{r}
+list.files("syntactic_results")
+```
 
