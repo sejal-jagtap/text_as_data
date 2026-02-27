@@ -3,6 +3,8 @@ title: "Data Exploration"
 output: html_notebook
 ---
 
+Introduction: For this assignment, I analyzed a corpus of Early Modern political economy texts provided on Canvas. These documents were intentionally selected as part of a shared intellectual tradition, allowing for systematic comparison. After cleaning and normalizing the texts, I conducted an exploratory analysis using three approaches: TF–IDF to identify lexically distinctive terms, Pearson correlation to measure similarity between documents, and syntactic complexity measures to compare structural writing patterns across two selected texts. Together, these methods allowed me to examine how the texts relate to one another both in vocabulary use and grammatical structure.
+
 ```{r}
 library(tidyverse)
 library(tidytext)
@@ -19,7 +21,7 @@ getwd()
 list.files("texts", full.names = TRUE)
 ```
 ```{r}
-read_file("texts/A06785.txt")
+# read_file("texts/A06785.txt")
 ```
 
 
@@ -42,13 +44,11 @@ print(corpus_raw)
 sum(str_detect(corpus_raw$text, "ſ"))
 ```
 
-
 Step 0: Normalization
 
 In preparing the corpus for analysis, I adopted a minimal-intervention 
 normalization strategy. The goal was to ensure lexical comparability across 
 documents while preserving historically meaningful orthographic variation.
-
 
 0.1) First, I replaced the Early Modern long S character (ſ) with the modern 
 letter “s,” as required. Without this correction, words like “ſtate” and “state”
@@ -134,6 +134,7 @@ tokens_df %>%
 These are real words and carry meaning, not OCR errors.
 
 APPROACH 1: TF - IDF
+I computed TF–IDF scores for each document to identify terms that are distinctive relative to the rest of the corpus. This allowed me to see what makes each text lexically unique while still operating within a shared vocabulary.
 
 ```{r}
 # Step 1: Document feature matrix
@@ -214,6 +215,7 @@ list.files("tfidf_distinctiveness")
 
 
 APPROACH 2 - Pearson Correlation
+Using a document–feature matrix, I calculated pairwise Pearson correlations between documents to measure similarity in vocabulary distributions. I visualized these relationships with a heatmap and identified the most and least similar document pairs.
 
 ```{r}
 # Load required libraries
@@ -329,6 +331,8 @@ ggplot(heat_df,
 ```
 
 APPROACH 3 -  Syntactic complexity profile
+
+Based on the similarity results, I selected two texts and implemented the Week 05 syntactic complexity framework. I measured sentence length, clause density, dependent clauses, coordination, and complex nominals to compare how the texts differ in grammatical structure.
 
 ```{r}
 library(udpipe)
@@ -513,4 +517,9 @@ ggplot(syntactic_long,
         strip.text = element_text(face = "bold"))
 ```
 
+Central Analytical Question
+Do lexical similarity patterns within the corpus correspond to shared structural (syntactic) complexity, or are vocabulary and sentence structure operating independently?
+
+This convergence across methods suggests that variation within the corpus reflects meaningful differences in intellectual style rather than random fluctuation. Lexical clustering (Pearson), distinctiveness (TF–IDF), and syntactic density (complexity measures) all point toward internal differentiation in argumentative strategy and rhetorical construction.
+Importantly, Pearson correlation measures similarity in patterns of language use — not causation — but when combined with syntactic evidence, it strengthens the interpretation that the corpus contains distinct stylistic groupings within a shared intellectual tradition.
 
