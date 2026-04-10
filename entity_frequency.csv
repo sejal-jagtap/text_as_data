@@ -1,0 +1,603 @@
+entity,label,frequency
+England,GPE,62
+Exchange,ORG,62
+London,GPE,59
+Spain,GPE,45
+Letters of Credit,ORG,41
+Amsterdam,GPE,38
+Bank,ORG,37
+Bankers,ORG,29
+Holland,GPE,23
+Account,ORG,21
+Bills,ORG,21
+France,GPE,21
+Tobacco,ORG,21
+Bankrupt,ORG,20
+Velvets,GPE,18
+Usury,ORG,18
+Merchants,ORG,17
+Scotland,GPE,14
+India,GPE,13
+Kingdom,GPE,12
+Magistrates,ORG,12
+Chancery,ORG,12
+Great Britain,GPE,11
+Estate,ORG,10
+Commonwealth,ORG,10
+Paris,GPE,10
+Gentleman,ORG,10
+Bill of Exchange,ORG,10
+Nation,ORG,10
+Edinburgh,GPE,9
+Faith,ORG,9
+Italy,GPE,9
+Ships,ORG,9
+Debtors,ORG,8
+Realm,GPE,8
+Acquittance,ORG,8
+Traffic,ORG,8
+Capital or Stock,ORG,7
+Customs,ORG,7
+Commerce,ORG,7
+Warehouse,ORG,7
+Parliament,ORG,7
+Custom,GPE,7
+the Custom of Merchants,ORG,7
+Germany,GPE,7
+Court,ORG,7
+Profit,ORG,7
+Impositions,ORG,7
+Venice,GPE,6
+C.D.,GPE,6
+Portugal,GPE,6
+Notary,GPE,6
+the Bill of Exchange,ORG,6
+Lands,GPE,6
+Hamburg,GPE,6
+America,GPE,6
+Society,ORG,6
+State,ORG,6
+Sun,ORG,6
+Foreigners,ORG,6
+Archduke,ORG,6
+Estates,GPE,6
+Magazine,ORG,6
+Leidger Book,ORG,5
+Capital,GPE,5
+Bankrupts,ORG,5
+Money,GPE,5
+Bar,ORG,5
+Cedere,ORG,5
+Treatise,ORG,5
+the Account of Profit and Loss,ORG,5
+Tobacco,GPE,4
+Pagan,GPE,4
+Commodities,ORG,4
+Pennsylvania,GPE,4
+Traffic and Trade,ORG,4
+Nations,ORG,4
+Money,ORG,4
+the Crown Office,ORG,4
+Debtor and Creditor,ORG,4
+Decoctors,ORG,4
+Magistrate,ORG,4
+the Bearer of the,ORG,4
+"Estate, Credit",ORG,4
+Fair,ORG,4
+Letters,ORG,4
+Wood,ORG,4
+Hamburgh,GPE,4
+the Bearer of that Letter,ORG,4
+Humane,ORG,4
+Bayes,ORG,4
+Surety,ORG,4
+Attachment,ORG,4
+Russia,GPE,4
+Scriveners,ORG,4
+Sell,ORG,4
+the West Indies,GPE,4
+Sugar,GPE,4
+Servant,ORG,4
+Seville,ORG,4
+Reputation,ORG,4
+Rechange,GPE,4
+A.B.,GPE,4
+Provenu,ORG,4
+Bills of Exchanges,ORG,4
+Bearer,ORG,4
+Dantzic,GPE,3
+Warehouses,ORG,3
+Riga,GPE,3
+B.M.,GPE,3
+Mensa,ORG,3
+Register,ORG,3
+Mariner,ORG,3
+Divinity Trust and Confidence,ORG,3
+the Accounted of Profit & Loss,ORG,3
+W.W. Mercer,ORG,3
+Voyage Creditor,ORG,3
+probetur,GPE,3
+Reflection,ORG,3
+Saint Lucar,GPE,3
+"Faith, Trust",ORG,3
+Factors,ORG,3
+Statute of Bankrupt,ORG,3
+Howbeit,GPE,3
+Houses of Vendition,ORG,3
+House,ORG,3
+A.K. Touching Citizens or Merchants,ORG,3
+Honour,ORG,3
+Honour,GPE,3
+Honesty,ORG,3
+Indigo,ORG,3
+Silver,GPE,3
+Albeit,GPE,3
+Young Merchants,ORG,3
+Ireland,GPE,3
+a Letter of Credit,ORG,3
+Star,ORG,3
+"Apparel, Bed",ORG,3
+the West-Indies,ORG,3
+Foreign Ware,ORG,3
+Knights,ORG,3
+"Province, City",GPE,3
+Mercy,ORG,3
+Chamber,ORG,3
+Profession,ORG,3
+Credit of the Letters,ORG,3
+Coine,GPE,3
+Untenanted,ORG,3
+Money lie Dead,ORG,3
+THE Credit of Merchants,ORG,3
+Newcastle,GPE,3
+Country and Countries,ORG,3
+Capital or Stock Creditor,ORG,3
+Protection,ORG,3
+Usury,GPE,3
+Taxes,ORG,3
+Carta,GPE,3
+The Custom of Merchants,ORG,3
+the Custom of London,GPE,3
+Cross and Inscription,ORG,3
+the Letters of Credit,ORG,3
+Creditors Prosecute,ORG,3
+Company,ORG,3
+Christendom,ORG,3
+China,GPE,3
+Custom,ORG,3
+Credit or Exchange,ORG,3
+Perpetuanoes,ORG,3
+Bond,ORG,3
+Plate,ORG,3
+King Henry 8),ORG,2
+Nullo,ORG,2
+Tallow,GPE,2
+Procuration,ORG,2
+Westminster,GPE,2
+Privileges which Land,ORG,2
+Kingdome,GPE,2
+West-India,GPE,2
+Owner,ORG,2
+Woods,ORG,2
+Wisdom,ORG,2
+"Iron, Led, Tin",ORG,2
+Pamphlet,ORG,2
+Prior and Consuls,ORG,2
+Town,GPE,2
+Sicilia,GPE,2
+Labour,ORG,2
+Practice,ORG,2
+Indostan,GPE,2
+Sin,ORG,2
+Parliament Anno,ORG,2
+Poverty,ORG,2
+Perpetuanoes,GPE,2
+Yarmouth,GPE,2
+Public Affairs,ORG,2
+Land,ORG,2
+Province,GPE,2
+Lixborne,GPE,2
+Sugar-Bakers,ORG,2
+Lots,ORG,2
+Sugars,GPE,2
+Provenu,GPE,2
+Plymouth,GPE,2
+Manufacture,ORG,2
+"Reys, Reduction of Portugal",ORG,2
+Purpose,ORG,2
+Purchases,ORG,2
+Mariners,ORG,2
+Mascavado,ORG,2
+Middleborough,GPE,2
+Public Taxes,ORG,2
+Mutandis,ORG,2
+Naples,GPE,2
+Land for Money,ORG,2
+Statute of Bankrupts,ORG,2
+Scrivener,ORG,2
+"Laws, Government",ORG,2
+Statute,ORG,2
+Letter of Credit,ORG,2
+Velvets,ORG,2
+Necessitas,ORG,2
+Natural,ORG,2
+Rome,GPE,2
+Professions,ORG,2
+Letters Missive between Merchants,ORG,2
+Nation and Nation,ORG,2
+Profit and Loss,ORG,2
+Substance,ORG,2
+Rouen,ORG,2
+Mutatis,GPE,2
+byte,ORG,2
+Committees,ORG,2
+the Customs of Merchants,ORG,2
+"Contracts, Letters of Credit",ORG,2
+Cornelius Tacitus,ORG,2
+Bills of Debt,ORG,2
+the Office of Prior and Consuls,ORG,2
+the East-Indies,ORG,2
+Berne,ORG,2
+Countries,ORG,2
+the East Indies,ORG,2
+Country where Interest of Money,ORG,2
+Credit of Land,ORG,2
+the Books of Accounts,ORG,2
+Batter,ORG,2
+Barbadoes Sugars,ORG,2
+the Council of State,ORG,2
+the Proprietors of Land,ORG,2
+the Building of Ships,ORG,2
+Banker,ORG,2
+Dealings,ORG,2
+the Roots of Trees for Fuel,ORG,2
+the Brokers of Exchanges,ORG,2
+Blanco,ORG,2
+Constituants,ORG,2
+the English Interest,ORG,2
+"Consells, Admirals",ORG,2
+Certificate,ORG,2
+Castille,GPE,2
+the Lady Margaret Duchess,ORG,2
+the Industry of Beginners,ORG,2
+the Law-Merchant,ORG,2
+Citizens or Merchants,ORG,2
+Clothes,ORG,2
+Canterbury,GPE,2
+Coin,ORG,2
+Callings,ORG,2
+the Factor of Lixborne,ORG,2
+Commission of the Statute of Bankrupt,ORG,2
+Commissions,ORG,2
+Calis,GPE,2
+the Letter of Advice,ORG,2
+Bullion,ORG,2
+Commodum,GPE,2
+Communication,ORG,2
+Build,GPE,2
+Debtor & Creditor,ORG,2
+Banks,ORG,2
+Authority,ORG,2
+Foreign Trade,ORG,2
+Farmers,ORG,2
+the Testators Debts,ORG,2
+Arragon,GPE,2
+Fate,ORG,2
+Armar,GPE,2
+nec,ORG,2
+maketh,ORG,2
+Fly,ORG,2
+Frankford,ORG,2
+Fallere,GPE,2
+Freight,ORG,2
+Antuerpe,GPE,2
+Answer,ORG,2
+the united Low Provinces,ORG,2
+bee,ORG,2
+Hamborough,GPE,2
+Hamborough Creditor,ORG,2
+Home,ORG,2
+the Sugar-Bakers,ORG,2
+the King and Commonwealth,ORG,2
+Austria,GPE,2
+senate,ORG,2
+Errors,ORG,2
+Assurors,ORG,2
+Attaint,ORG,2
+the Banks of Madrill,ORG,2
+the State of Milan,ORG,2
+the Bank of England,ORG,2
+the Statute against Bankerupts,ORG,2
+Doors,ORG,2
+the Pepper Trade to England,ORG,1
+Tanquam,GPE,1
+Staple Towns,ORG,1
+the Public in Times of Necessity,ORG,1
+Specie,GPE,1
+these united Provinces,ORG,1
+this Treatise of Free,ORG,1
+this Bill of Exchange,ORG,1
+Sovereigns,GPE,1
+the house of commerce,ORG,1
+the Law of Nations,ORG,1
+the Seas Procurations,ORG,1
+The Efficient Cause,ORG,1
+times & trades,ORG,1
+the next Mart,ORG,1
+the Master of Counting Houses,ORG,1
+the Life of Trade,ORG,1
+the Masters Credit,ORG,1
+the Statute of Bankerupts,ORG,1
+the Occasions and Fashions of the Places,ORG,1
+Supersedias,GPE,1
+the New Company,ORG,1
+the Procurations or Commissions,ORG,1
+"the Seas, Merchants",ORG,1
+the Merchant Stranger,ORG,1
+Stealing,ORG,1
+the Master,ORG,1
+the Master of the,ORG,1
+Stoad,GPE,1
+Suretyship,ORG,1
+The Statute of Bankrupts,ORG,1
+Strangers,GPE,1
+Sun of the,ORG,1
+the Master of,ORG,1
+the Merchants-Aduenturers Trade,ORG,1
+Yong,GPE,1
+the Inuoyces of Merchants,ORG,1
+the Bearer of the Bill,ORG,1
+seruanda,GPE,1
+the Account of Profit,ORG,1
+Wager,ORG,1
+the Authority of the Chancery to the Commissioners,ORG,1
+the Axis of the Common-wealth,ORG,1
+the Banker of Florence,ORG,1
+the Bills of Entries,ORG,1
+Thine,GPE,1
+the Bills of Exchange,ORG,1
+Voyage,ORG,1
+Vnion,ORG,1
+Vltra,GPE,1
+Virginia,GPE,1
+Vessels,ORG,1
+neuerthelesse,ORG,1
+netherlands Golden Riders,ORG,1
+Wareswil,ORG,1
+Wealth Felicity,ORG,1
+Weigh,ORG,1
+exchequer,ORG,1
+destroyeth,GPE,1
+Whereby Malynes,ORG,1
+de Constituto,ORG,1
+Wherefore Tiberius Caesar,ORG,1
+"Widows, Orphans",ORG,1
+christian Charity,ORG,1
+Wines,ORG,1
+bee ſubiect,ORG,1
+Zante,GPE,1
+Wonders,ORG,1
+Yong Merchants:,ORG,1
+the Capital of 5911,ORG,1
+the City of London,GPE,1
+the Council of the Admiralty,ORG,1
+the Estates General,ORG,1
+Three Distinction,ORG,1
+Time,ORG,1
+the Imprisonment of Men's Persons for Debt,ORG,1
+the Gentry of England,ORG,1
+the Generals of Mints,ORG,1
+the Fleet for Nova Espagna,ORG,1
+Totall Summe,ORG,1
+the Experience and Confession of all Men,ORG,1
+Towne,GPE,1
+Towns,ORG,1
+Trade without Order or Gouernment,ORG,1
+"Trade, & the",ORG,1
+Yong Merchants,ORG,1
+Trades,ORG,1
+Transportation,ORG,1
+the Court of Merchants,ORG,1
+Treatise of Exchanges,ORG,1
+Tribune,ORG,1
+Troubles,ORG,1
+Trust,ORG,1
+Truſt,ORG,1
+the Empire &,ORG,1
+the Emperor Antonius,ORG,1
+the Emperor Adrian,ORG,1
+Turkey,GPE,1
+United Provinces,ORG,1
+the Efficient Cause,ORG,1
+Usurer,GPE,1
+Usurers,ORG,1
+Value,ORG,1
+Sovereign,ORG,1
+A Faculty Royal,ORG,1
+Societies and Companies,ORG,1
+Courts of Parliament,ORG,1
+Diamond,ORG,1
+"Debtor, & Cash Creditor",ORG,1
+Dealings and Combinations,ORG,1
+Dansicke the Doller,ORG,1
+Damages,ORG,1
+"Customs, Subsidies",ORG,1
+Customs of Merchants,ORG,1
+Custom of Merchants,ORG,1
+Curion Tribune,ORG,1
+Courts of Equity or Law,ORG,1
+Committee,ORG,1
+Court of King's Bench,ORG,1
+Courses,ORG,1
+Countries and Commonweals,ORG,1
+Countries,GPE,1
+Council,ORG,1
+Corporation & Orders for Trade,ORG,1
+"Contracts, Bills of Exchange",ORG,1
+Contracts of Commerce and Alliances with Princes and Governors,ORG,1
+Consequence,GPE,1
+"Divinations, Imprecations,",ORG,1
+Divine,ORG,1
+Divine Service,ORG,1
+Divines,ORG,1
+Genoa,GPE,1
+Geneva,GPE,1
+Geneuoises,ORG,1
+Florence,ORG,1
+Flaunders,ORG,1
+Families,ORG,1
+Faith and Credit between Merchants,ORG,1
+Exchequer,ORG,1
+"Exchanges, Page 104",ORG,1
+Equity,ORG,1
+English Bottoms,GPE,1
+Egypt,GPE,1
+Edicts and Proclamations,ORG,1
+East-India Trade,ORG,1
+East India Company,ORG,1
+E.F.,ORG,1
+E.F.,GPE,1
+Ducats,GPE,1
+Driblets,GPE,1
+Conscience and Charity,ORG,1
+Coin of Christendom,ORG,1
+Gibelines,ORG,1
+Assurances,ORG,1
+Bays for these Bills of another,ORG,1
+Banks,GPE,1
+Bankers Factor,ORG,1
+Aſſes,GPE,1
+Authority for Law Causes,ORG,1
+Author,GPE,1
+Aueridges,ORG,1
+Aueridge,ORG,1
+Assuror,GPE,1
+Artificial,ORG,1
+Clothier,ORG,1
+Argument,GPE,1
+Arbitrators,ORG,1
+Antuerp the Factor,ORG,1
+Antuerp,GPE,1
+Ancestors,ORG,1
+Alterations,ORG,1
+Affair,ORG,1
+Account Creditor,ORG,1
+Accepted,ORG,1
+Becauſe the Cloth-trade,ORG,1
+Bills,GPE,1
+Bills of Lading,ORG,1
+Blank,ORG,1
+"Clothes, Colchester for Bayes",ORG,1
+Cicero,ORG,1
+Church,ORG,1
+Charity,ORG,1
+Chancery or Court of Equity,ORG,1
+Chair,ORG,1
+Cassyers,ORG,1
+Capital Debtor,ORG,1
+Capital,ORG,1
+Caligula,GPE,1
+CHAOS,ORG,1
+C.D. the Factor of Antuerpe,ORG,1
+C.D. the Factor,ORG,1
+Butler,ORG,1
+Bundles,GPE,1
+Brokeridge,ORG,1
+Brocadge,GPE,1
+Britain,GPE,1
+Borrador,GPE,1
+Geometrical,ORG,1
+Gloſſe,GPE,1
+Sinews,ORG,1
+Pari,ORG,1
+Priuiledges & Immunities,ORG,1
+Prison,GPE,1
+Powers and Authorities,ORG,1
+Power and Commission,ORG,1
+Policies os Insurance,ORG,1
+Pirates,GPE,1
+Peru,GPE,1
+Personal and Provincial: the Personal Exchange,ORG,1
+Parlements,ORG,1
+Pardons or Bulls,ORG,1
+"No Executor, Administrator, Surveyor,",ORG,1
+Par,ORG,1
+Orange,GPE,1
+Old,ORG,1
+Office,ORG,1
+Nuremberg,GPE,1
+Nudae,GPE,1
+Novices,ORG,1
+Norway,GPE,1
+Nobility,ORG,1
+Private,ORG,1
+Profit and Loss Creditor,ORG,1
+Prouince,ORG,1
+Prouiso,ORG,1
+Sight,ORG,1
+Sick,ORG,1
+Shipwreck,ORG,1
+Seville,GPE,1
+Servants,ORG,1
+Serpent,GPE,1
+Scots,ORG,1
+Sayes,GPE,1
+Sauiours Argument,ORG,1
+Satan,GPE,1
+Salt,ORG,1
+SILVER,ORG,1
+Royal Exchange,ORG,1
+Revenge,ORG,1
+Restoration,ORG,1
+Register of the same Assurances,ORG,1
+Register and Copies,ORG,1
+Ready Money,ORG,1
+Public,ORG,1
+No Man Courts,ORG,1
+Netherlands,GPE,1
+Gold and Silver Bullion,ORG,1
+Irons,ORG,1
+Latitat,ORG,1
+Latham,GPE,1
+Land for Security,ORG,1
+Kingdome,ORG,1
+King's Majesty's,ORG,1
+King's Customs,ORG,1
+King Henry,GPE,1
+Japan,GPE,1
+Irrevocable,ORG,1
+Intimations,ORG,1
+Nerves,ORG,1
+Interloping,ORG,1
+Influence and Authority,ORG,1
+Husbandry,ORG,1
+Horat,ORG,1
+Horace,GPE,1
+Hercules,GPE,1
+Habitations,ORG,1
+Great,GPE,1
+Gouernment,ORG,1
+Liedger,ORG,1
+Limitation of Letters of Credit,ORG,1
+Lions,ORG,1
+Lords,ORG,1
+Negotiations,ORG,1
+Navigation,ORG,1
+N.W.,ORG,1
+N.,ORG,1
+A Register for Assurances,ORG,1
+Mount of Charity,ORG,1
+Monies,ORG,1
+Mints,ORG,1
+Mine,ORG,1
+Milner,ORG,1
+Mexico,GPE,1
+Messacaria,GPE,1
+Merchants Bills,ORG,1
+Merchant's Courts,ORG,1
+Merchant,ORG,1
+Medalia,ORG,1
+Medalia,GPE,1
+Manufactures,GPE,1
+Lumbards',ORG,1
+truſt,ORG,1
