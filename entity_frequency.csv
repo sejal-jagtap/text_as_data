@@ -1,603 +1,3145 @@
 entity,label,frequency
-England,GPE,62
-Exchange,ORG,62
-London,GPE,59
-Spain,GPE,45
-Letters of Credit,ORG,41
-Amsterdam,GPE,38
-Bank,ORG,37
-Bankers,ORG,29
-Holland,GPE,23
-Account,ORG,21
-Bills,ORG,21
-France,GPE,21
-Tobacco,ORG,21
-Bankrupt,ORG,20
-Velvets,GPE,18
-Usury,ORG,18
-Merchants,ORG,17
-Scotland,GPE,14
-India,GPE,13
-Kingdom,GPE,12
-Magistrates,ORG,12
-Chancery,ORG,12
-Great Britain,GPE,11
-Estate,ORG,10
-Commonwealth,ORG,10
-Paris,GPE,10
-Gentleman,ORG,10
-Bill of Exchange,ORG,10
-Nation,ORG,10
-Edinburgh,GPE,9
-Faith,ORG,9
-Italy,GPE,9
-Ships,ORG,9
-Debtors,ORG,8
-Realm,GPE,8
-Acquittance,ORG,8
-Traffic,ORG,8
-Capital or Stock,ORG,7
-Customs,ORG,7
-Commerce,ORG,7
-Warehouse,ORG,7
-Parliament,ORG,7
-Custom,GPE,7
-the Custom of Merchants,ORG,7
-Germany,GPE,7
-Court,ORG,7
-Profit,ORG,7
-Impositions,ORG,7
-Venice,GPE,6
-C.D.,GPE,6
-Portugal,GPE,6
-Notary,GPE,6
-the Bill of Exchange,ORG,6
-Lands,GPE,6
-Hamburg,GPE,6
-America,GPE,6
-Society,ORG,6
-State,ORG,6
-Sun,ORG,6
-Foreigners,ORG,6
-Archduke,ORG,6
-Estates,GPE,6
-Magazine,ORG,6
-Leidger Book,ORG,5
-Capital,GPE,5
-Bankrupts,ORG,5
-Money,GPE,5
-Bar,ORG,5
-Cedere,ORG,5
-Treatise,ORG,5
-the Account of Profit and Loss,ORG,5
-Tobacco,GPE,4
-Pagan,GPE,4
-Commodities,ORG,4
-Pennsylvania,GPE,4
-Traffic and Trade,ORG,4
-Nations,ORG,4
-Money,ORG,4
-the Crown Office,ORG,4
-Debtor and Creditor,ORG,4
-Decoctors,ORG,4
-Magistrate,ORG,4
-the Bearer of the,ORG,4
-"Estate, Credit",ORG,4
+Trade,ORG,1716
+England,GPE,882
+Kingdom,GPE,561
+Great Britain,GPE,302
+Holland,GPE,266
+France,GPE,258
+Exchange,ORG,238
+Nation,ORG,234
+Nations,ORG,225
+London,GPE,218
+Spain,GPE,205
+Countries,ORG,194
+Usury,ORG,190
+State,ORG,179
+Ships,ORG,177
+Commonwealth,ORG,174
+Lands,GPE,173
+Kingdome,GPE,168
+Portugal,GPE,157
+Turkey,GPE,150
+Realm,GPE,149
+India,GPE,146
+Italy,GPE,137
+the East Indies,ORG,136
+America,GPE,131
+Commodities,ORG,129
+Commerce,ORG,127
+Riches,ORG,105
+Staple,ORG,98
+Parliament,ORG,93
+Merchants,ORG,90
+Estates,GPE,80
+Germany,GPE,80
+Company,ORG,80
+Customs,ORG,77
+Christendom,ORG,76
+Ireland,GPE,75
+Treatise,ORG,74
+Commodity,ORG,71
+Scotland,GPE,71
+Bills,ORG,69
+Foreign Trade,ORG,60
+Navigation,ORG,60
+Indies,ORG,59
+Gouernment,ORG,57
+Ports,ORG,57
+Kingdome,ORG,54
+Russia,GPE,52
+Money,ORG,51
+Britain,GPE,50
+the East-Indies,ORG,49
+Gentleman,ORG,46
+Mariners,ORG,44
+Traffic,ORG,43
+Indigo,ORG,40
+Par,ORG,40
+Great,GPE,39
+China,GPE,38
+Neighbours,ORG,38
+Danes,ORG,38
+bee,ORG,37
+States,GPE,37
+Pepper,ORG,36
+Shipping,GPE,36
+Virginia,GPE,36
+Venice,GPE,34
+Land,ORG,34
+the Ballance of Trade,ORG,33
+Annum,ORG,33
+Ballance,ORG,33
+Families,ORG,32
+Island,GPE,32
+Mint,ORG,32
+the Abatement of Interest,ORG,30
+Amsterdam,GPE,30
+Kingdoms,GPE,30
+Colonies,GPE,29
+Society,ORG,29
+Houses,ORG,28
+Clothes,ORG,28
+Poland,GPE,27
+Persia,GPE,27
+Manufacture,ORG,27
+Bullion,ORG,27
+Sugar,GPE,26
+Price,ORG,26
+Netherlands,GPE,26
+Shipping,ORG,25
+Trade and Shipping,ORG,25
+Clothiers,ORG,24
+Centre,GPE,24
+Newfoundland,GPE,24
+Coin,ORG,23
+Kingdomes,ORG,23
+Kings,ORG,23
+Interest of Money,ORG,23
+Countries,GPE,23
+the Trade of England,ORG,22
+Herrings,GPE,22
+Misselden,ORG,22
+Navy,ORG,22
+Absentees,GPE,22
+Bankers,ORG,22
+the Church of Rome,ORG,21
+Fuller,ORG,21
+Lisbon,GPE,21
+the Interest of Money,ORG,21
+Usury,GPE,21
+Norway,GPE,21
+Merchandize,GPE,20
+Clothier,ORG,20
+Monies,ORG,20
+Interest,ORG,20
+Edinburgh,GPE,20
+Rome,GPE,20
+Answer,ORG,20
+Companies,ORG,20
+the Balance of Trade,ORG,19
+Public,ORG,19
+the West-Indies,ORG,19
+Estate,ORG,19
+Wood,ORG,19
+Hamburgh,GPE,19
+Wisdom,ORG,19
+the Natiue Commodities,ORG,19
+Letters,ORG,19
+Impositions,ORG,19
+Zealand,GPE,19
+Netherlanders,ORG,19
+Drapery,ORG,19
+Truth,GPE,18
+Silks,ORG,18
+Army,ORG,18
+Authority,ORG,18
+the East India Company,ORG,18
+Freight,ORG,18
+Usurers,ORG,18
+Preface,ORG,18
+Scrutiny,ORG,18
+Surrat,ORG,18
+Ballance of Trade,ORG,18
+Land,GPE,17
+Specie,GPE,17
+Liberty,ORG,17
+Divines,ORG,17
+Paris,GPE,17
+Dominions,ORG,17
+Traffic and Commerce,ORG,17
+Order and Gouernment,ORG,17
+Greenland,GPE,17
+Religion,ORG,17
+Retainers,GPE,16
+Bombay,GPE,16
+Doors,ORG,16
+Committees,ORG,16
+East Indies,ORG,16
+National,ORG,16
+Honour,ORG,16
+King's,ORG,16
+Flanders,GPE,16
+Practice,ORG,16
+Denmark,GPE,16
+House,ORG,16
+Bank,ORG,16
+Eastland,GPE,15
+Egypt,GPE,15
+Foreign Commodities,ORG,15
+Cause,ORG,15
+Planting,GPE,15
+Nobility,ORG,15
+the West Indies,GPE,15
+Tobacco,ORG,14
+Gouernment in Trade,ORG,14
+Balance of Trade,ORG,14
+Time,ORG,14
+Sons,ORG,14
+Hollanders,ORG,14
+Naval,GPE,14
+Farmers,ORG,14
+the East-India Company,ORG,14
+Arts,ORG,14
+Home,ORG,14
+Rochel,GPE,13
+Education,ORG,13
+Reuenue,GPE,13
+Question,ORG,13
+Borrower,ORG,13
+Strength,ORG,13
+Eyes,ORG,13
+Port,GPE,13
+Markets,ORG,13
+Barbadoes,GPE,13
+Taxes,ORG,13
+Hambrough,GPE,13
+the Trade of the East-Indies,ORG,13
+Maryland,GPE,13
+Town,GPE,13
+Times,ORG,12
+Christendome,GPE,12
+Trade and Commerce,ORG,12
+Towns,ORG,12
+Cloves,ORG,12
+Sweden,GPE,12
+Shipwrights,GPE,12
+Corporation,ORG,12
+Callings,ORG,12
+Wools,ORG,12
+Wealth,GPE,12
+Sun,ORG,12
+Slaves,ORG,12
+Interest,GPE,12
+the Cloth Trade,ORG,12
+Florence,ORG,12
+Guiny,ORG,12
+the Interest of other Nations to Trade,ORG,12
+Particulars,ORG,12
+Letters Patents,ORG,12
+Labour,ORG,12
+Newcastle,GPE,12
+Justice,ORG,12
+Old,ORG,11
+Gentlemen and Merchants,ORG,11
+the Trade of India,ORG,11
+Nutmegs,ORG,11
+the King's Subjects,ORG,11
+Pirates,GPE,11
+Genova,GPE,11
+Hamburg,GPE,11
+World,ORG,11
+the Dominions of the King of Spaine,ORG,11
+Traffic and Trade,ORG,11
+the Turkey Company,ORG,11
+East-India Company,ORG,11
+the Merchants-Adventurers,ORG,11
+Seamen,GPE,11
+the Trade of this Kingdome,ORG,11
+the City of London,GPE,11
+Ouer,ORG,11
+Par of Exchange,ORG,11
+Profit,ORG,11
+Porters,ORG,11
+Velvets,GPE,11
+Jamaica,GPE,10
+the Trade of the World,ORG,10
+Tinne,GPE,10
+Vsury,ORG,10
+Tools,ORG,10
+Hands and Stock,ORG,10
+the Forme of Trade,ORG,10
+Japan,GPE,10
+Fathers,ORG,10
+Gold & Silver,ORG,10
+The Trade of Denmark,ORG,10
+Tenderness &,ORG,10
+Tallow,GPE,10
+Company of Merchants,ORG,10
+Consequence,ORG,10
+Consideration,ORG,10
+Custom,ORG,10
+Customes,ORG,10
+Cuſtomes,ORG,10
+Strangers,GPE,10
+"Shipwrights, Butchers, Brewers, Bakers,",ORG,10
+Seals,ORG,10
+Emergencies of State and War,ORG,10
+Indostan,GPE,10
+the New Trades,ORG,10
+Profession,ORG,10
+Notion,ORG,10
+this Kingdom of England,GPE,10
+"the Trade, Multitudes of People",ORG,10
+this Ballance of Trade,ORG,10
+Bulloin,GPE,10
+the West Indies,ORG,10
+Beginners,ORG,10
+the Turkey Merchants,ORG,10
+the Turkey-Company,ORG,10
+Mother-Kingdoms,ORG,9
+Brazil,GPE,9
+New-England,GPE,9
+Efficient,ORG,9
+the Wisdom of Parliament,ORG,9
+the Decay of Trade,ORG,9
+Interlopers,ORG,9
+Foreign Goods,ORG,9
+the Protestant Religion,ORG,9
+Foundation,ORG,9
+Athens,GPE,9
+Spice,GPE,9
+Christendome,ORG,9
+Westminster,GPE,9
+Council,ORG,9
+Commodity,GPE,9
+Vessels,ORG,9
+Serges,ORG,9
+Pag,ORG,9
+Measure,ORG,8
+Country where Interest of Money,ORG,8
+Countrymen,GPE,8
+the Trade of Begging,ORG,8
+Magistrates,ORG,8
+Court-Merchant,ORG,8
+the House of Parliament,ORG,8
+Advantages of Industry and Frugality,ORG,8
+the Lands and Trade of England,ORG,8
+Sine,ORG,8
+Craven,ORG,8
+Silver,GPE,8
+Millions,ORG,8
+Towns of Trade,ORG,8
+Barbadoes Sugars,ORG,8
+the Rent of Farms,ORG,8
+Fundamental,ORG,8
+Merchandise,GPE,8
+Staplers,GPE,8
+Country,ORG,8
+Light,ORG,8
+the United Provinces,ORG,8
+Communibus,ORG,8
+Sutton,GPE,8
+the European World,ORG,8
+Legorn & Genoa,ORG,8
+Compass,ORG,8
+the Sugar-Bakers,ORG,8
+Sunne,ORG,8
+Sugars,GPE,8
+Sugar-Bakers,ORG,8
+Lex Mercatoria,GPE,8
+the Trade & Market,ORG,8
+Greece,GPE,8
+Considerations,ORG,8
+Hands,ORG,8
+Streets,GPE,8
+Woods,ORG,8
+Stock in Trade,ORG,8
+the East India Trade,ORG,8
+The Turkey Merchants,ORG,8
+Bayes,ORG,8
+State and Trade,ORG,8
+Climates,GPE,8
+St Vuall,GPE,8
+Custom,GPE,8
+Customers,ORG,8
+Money,GPE,8
+the Baltique Seas,ORG,8
+Foreigners,ORG,8
+National Profit,ORG,8
+Native Commodities,ORG,8
+Sentiments,ORG,8
+Industrious Neighbours,ORG,8
+the Merchants-Aduenturers,ORG,8
+Professions,ORG,8
+Ingenious Men,ORG,8
+Turkey Merchants,ORG,8
+Notions,ORG,8
+Cent,ORG,8
+Reformation,GPE,8
+Perpetuanoes,ORG,8
+Interest in Trade,ORG,8
+the Centre of Commerce,ORG,8
+Universe,ORG,8
+the Fruits of the Earth,ORG,8
+Cause,GPE,8
+People and Commodities,ORG,8
+Parishioners,ORG,8
+Build,GPE,8
+Party,ORG,8
+Bankrupt,ORG,8
+Honour,GPE,8
+Trade to England,ORG,8
+this Trade for England,ORG,8
+Salt,GPE,8
+Cities and Trading Towns,ORG,8
+Capital,GPE,8
+Improvement of Ireland,GPE,8
+Mother Kingdom,GPE,8
+Monopolies,GPE,8
+Debts,GPE,8
+Royal,ORG,8
+Money at Interest,ORG,8
+fed,ORG,8
+Delinquent,ORG,8
+Retreat,ORG,8
+Treasure,GPE,8
+Monopoly,GPE,8
+Leghorn,GPE,7
+Salt-Petre,GPE,7
+Crown,ORG,7
+the English Merchants,ORG,7
+Pari,ORG,7
+Parity,ORG,7
+Salt,ORG,7
+Buyers,ORG,7
+Mariners,GPE,7
+Covetousness,ORG,7
+Wines,GPE,7
+Peru,GPE,7
+Linen,ORG,7
+Poorer,ORG,7
+Lixborne,GPE,7
+Flanders,ORG,7
+Print,GPE,7
+the Corn Trade,ORG,7
+a Necessity of Commerce,ORG,7
+Nature,GPE,7
+Foundation of Trade,ORG,7
+Spirit,ORG,7
+Foreign Markets,ORG,7
+Passiue,ORG,7
+Latter,ORG,7
+Coffers,ORG,7
+Bengal,GPE,7
+Theme,ORG,7
+the Interest of England,ORG,7
+Abatement of Interest,ORG,7
+Trade and Money,ORG,7
+Coals,ORG,7
+Chapmen,GPE,7
+Cauſes,ORG,7
+Busses,ORG,6
+Plate,ORG,6
+Bodies,GPE,6
+Places,ORG,6
+Greatness,ORG,6
+Wales,GPE,6
+Sale,ORG,6
+Trade this Nation,ORG,6
+the Drapery of the Kingdome,ORG,6
+the Kingdom of England,GPE,6
+World,GPE,6
+Elections,ORG,6
+Ruin and Extirpation,ORG,6
+KINGS,ORG,6
+the Sickness-Summer,ORG,6
+the East India Action,ORG,6
+Place,ORG,6
+Royal African,ORG,6
+Fleets,ORG,6
+Convoys,ORG,6
+Amſterdam,GPE,6
+eaſie,GPE,6
+the Trade of Cloth,ORG,6
+Fox,ORG,6
+Jewels,GPE,6
+India Commodities,ORG,6
+Fleece,ORG,6
+Marks,ORG,6
+Councils of State and War,ORG,6
+New-England & Ireland,ORG,6
+Instances,ORG,6
+Kingdom of Europe,GPE,6
+Gentry,ORG,6
+the Trade of Turkey,ORG,6
+the West India Trade,ORG,6
+the Hambrough-Company,ORG,6
+Illustrate,ORG,6
+Ill,GPE,6
+Slavery,ORG,6
+the Muscovia-Company,ORG,6
+Men and Money,ORG,6
+Court of Parliament,ORG,6
+Men,ORG,6
+the French Peasantry,ORG,6
+the East-India Trade,ORG,6
+Carpenters,ORG,6
+the Realm of England,GPE,6
+Eastern,ORG,6
+Friend,ORG,6
+Honesty,ORG,6
+Idleness,GPE,6
+Sayes,GPE,6
+the White-Herring Fishing-Trade,ORG,6
+Bondage,ORG,6
+communibus annis,ORG,6
+"Governors, Deputies and Assistants",ORG,6
+Bricklayers and Carpenters,ORG,6
+Trade in Cities,ORG,6
+Piece,ORG,6
+Romish Countries,GPE,6
+Defence,ORG,6
+Abatements of Interest,ORG,6
+Realme,ORG,6
+the French Gentry,ORG,6
+Letters of Credit,ORG,6
+The East-India Company,ORG,6
+Hen,GPE,6
+Prolixity,ORG,6
+Rank,ORG,6
+Propagation of Trade,ORG,6
+Proposition,ORG,6
+National a Foundation,ORG,6
+Cadiz,ORG,6
+Domestic and Foreign Trade,ORG,6
+Foreign Treaties,ORG,6
+Purchaser,ORG,6
+West-India Trades,GPE,6
+Historical,ORG,6
+the Interest of Trade,ORG,6
+Use-Money,ORG,6
+Commonweal,ORG,6
+"Pepper, Cowryes, Long-Cloth",ORG,6
+Commiſſion,ORG,6
+Institution,ORG,6
+Lead,GPE,6
+Chimaera,ORG,6
+Foreign Princes,ORG,6
+10 per Cent,ORG,6
+Infallible Consequence,ORG,6
+Reasons of Probability,ORG,6
+Sumptuary Laws,ORG,6
+Bellies,ORG,6
+Board,ORG,6
+the Freedom of Trade,ORG,6
+Demonstration,ORG,6
+the Eaſt India Trade,ORG,6
+Retailors,ORG,6
+Lion-Key,ORG,6
+East-India,GPE,6
+Constitutions,ORG,6
+Consumption,ORG,6
+Muscovy,GPE,6
+Lords,ORG,6
+the Course of Trade,ORG,6
+Wives,ORG,6
+the Trade of a Merchant,ORG,6
+Strength at Home,ORG,6
+the Woollen Manufacture,ORG,5
+Nationally,ORG,5
+Custome,ORG,5
+the Public Good,ORG,5
+Nauigation,ORG,5
+Churches,ORG,5
+the Trade of HIS Maiesties,ORG,5
+Imposition,ORG,5
+East-India Commodities,ORG,5
+Importation,ORG,5
+Ships of War,ORG,5
+Clauses,GPE,5
+Argument,GPE,5
+Fluxus,ORG,5
+Kersies,ORG,5
+Dearth,GPE,5
+the Matter of Trade,ORG,5
+Citizens,ORG,5
+Privileges,ORG,5
+East-India Trade,GPE,5
+Accidents,ORG,5
+Freemen of London,ORG,5
+Saltpetre,GPE,5
+Russia Merchants,ORG,5
+Rates,ORG,5
+Bourdeaux,GPE,5
+Rate,ORG,5
+Cuſtome,ORG,5
+Prolixity and Repetition,ORG,5
+Munition,ORG,5
+Inhabit,ORG,5
+deliverer,ORG,5
+Register,ORG,5
+Indian Commodities,ORG,5
+Charters,ORG,5
+Maintenance of Trade,ORG,5
+the Companies of Merchants,ORG,5
+Corporations,ORG,5
+Coasts,ORG,5
+Henry,GPE,5
+West Indies,GPE,5
+Compasse,ORG,5
+Engine,ORG,5
+Stairs,GPE,5
+Bayes,GPE,5
+Engines,ORG,5
+Building,GPE,5
+Combination,ORG,5
+the Societies of Merchants,ORG,5
+Fact,ORG,5
+Husbandman,ORG,5
+Hungary,GPE,5
+the Axis of the Common-wealth,ORG,5
+the Exportation of Bullion,ORG,5
+"Bays, Says,",ORG,5
+Becket,ORG,5
+Birmingham,GPE,5
+Eye,ORG,5
+Weight,ORG,5
+Opinion,ORG,5
+Collections,ORG,5
+Weare,GPE,5
+Weary,GPE,5
+Subject,ORG,5
+Subjects,ORG,5
+Heart,ORG,5
+Center,ORG,5
+thou-Ryals,ORG,5
+the Scale of Exportation,ORG,5
+Councillors,ORG,5
+Natives,ORG,5
+Genovay,GPE,5
+the Advancement of Trade,ORG,5
+Wares,GPE,5
+Insomuch,ORG,5
+§,GPE,5
+Takers,ORG,5
+"Porters, Seamen",ORG,5
+Sinews,ORG,5
+Variety,ORG,5
+the Trades of Christendome,ORG,5
+Affair,ORG,5
+Court,ORG,5
+Porte,ORG,5
+Cadiz,GPE,5
+Haruest,ORG,5
+Material,ORG,5
+Countrey wanteth,ORG,5
+Koningsberg,GPE,5
+Country and Country,ORG,5
+Grace,ORG,5
+the Statute of Apprenticeship,ORG,5
+Soria,GPE,5
+Hercules,GPE,5
+Camels,ORG,5
+Committee,ORG,5
+the Commonwealth of Genova,ORG,5
+the Nobility and Gentry,ORG,4
+Fly-boats,GPE,4
+Particulers,ORG,4
+the Merchants-Aduenturers Trade,ORG,4
+Ingenious,GPE,4
+Inference,ORG,4
+Exchanging,ORG,4
+Interest to Trade,ORG,4
+Interest advanceth Trade,ORG,4
+Navigation and Navigators,ORG,4
+the Building of Ships,ORG,4
+Newfoundland,ORG,4
+Exporting the Materials,ORG,4
+Necessity,ORG,4
+Baltique,ORG,4
+Fish,GPE,4
+Fishery,ORG,4
+Fishing Harbours,ORG,4
+Fishing Trades,ORG,4
+"Fishing, Victuals",ORG,4
+Fight,ORG,4
+Noble Men's,ORG,4
+Ireland Exporting,ORG,4
+Irish Cattle,ORG,4
+Non,ORG,4
+Norenborough,ORG,4
+the Mother-Kingdom,GPE,4
+Interloping,ORG,4
+Novices,ORG,4
+the Command of ready Money,ORG,4
 Fair,ORG,4
-Letters,ORG,4
-Wood,ORG,4
-Hamburgh,GPE,4
-the Bearer of that Letter,ORG,4
-Humane,ORG,4
-Bayes,ORG,4
-Surety,ORG,4
-Attachment,ORG,4
-Russia,GPE,4
-Scriveners,ORG,4
+the Morea-Company,ORG,4
+the Cloth-Trade,ORG,4
+Brankrupt,GPE,4
+Obedience,ORG,4
+Eſtate,ORG,4
+Bristol,ORG,4
+Omne,ORG,4
+Oppression,GPE,4
+Order and Regulation of Trade,ORG,4
+the Milch-Cows of,ORG,4
+"Laws, Government",ORG,4
+Frenchmen,GPE,4
+Foreign Invasions,ORG,4
+Beer and Ale,ORG,4
+Lordship,ORG,4
+Landed,ORG,4
+Case,GPE,4
+Majesty &,ORG,4
+Majesty and Government,ORG,4
+the Dutch Trade,ORG,4
+Manchester,GPE,4
+Land Armies: No Absolute Princes,ORG,4
+Manufactures,GPE,4
+the Importation of Foreign Manufactures,ORG,4
+Larwick,ORG,4
+Manufactures,ORG,4
+Labours,GPE,4
+Ethiopia,GPE,4
+Marre the Merchandize,ORG,4
+the Kingdoms of Great Britain,ORG,4
+Marseilles,GPE,4
+the Western Ports,ORG,4
+Beginners in Trade and Commerce,ORG,4
+the Dominions of Wales,ORG,4
+Hambrough,ORG,4
+Londoners,ORG,4
+Meanes of Trade,ORG,4
+Hogsheads,ORG,4
+Home by Exportation of the Materials,ORG,4
+Laws of Restriction and Limitation,ORG,4
+Lazy,ORG,4
+the Established Government,ORG,4
+Hollumstrand,GPE,4
+Lean Kine,ORG,4
+Leeches,ORG,4
+Blank,ORG,4
+the English Trade,ORG,4
+Heteroclite,ORG,4
+the Industry of Beginners,ORG,4
+the Vse of Gouernment,ORG,4
+Levant,GPE,4
+Leviations,ORG,4
+Health,ORG,4
+Limitation,GPE,4
+the Exchange of London,ORG,4
+the Eaſt Indies,ORG,4
+the Eaſt India Company,ORG,4
+Hands and Purses,ORG,4
+Knight,ORG,4
+Ignorant Persons,ORG,4
+Native Productions,ORG,4
+Italie,ORG,4
+Inconuenience,ORG,4
+Joint Stocks of England,ORG,4
+the County of Cornwell,GPE,4
+Iurisdictions,ORG,4
+Forreine Princes,ORG,4
+Forreine Iurisdiction,ORG,4
+Forreine,ORG,4
+Forrein Trade,ORG,4
+Italy Money,ORG,4
+the Council of State,ORG,4
+France &,ORG,4
+Forraine Commodities,ORG,4
+Nation and Nation,ORG,4
+Formes,ORG,4
+Forme of Trade,ORG,4
+Bills of Debt,ORG,4
+the French Fishery of Placentia,ORG,4
+Individuals,GPE,4
+National Trade,ORG,4
+Island of Lewis,ORG,4
+Mother-Kingdom,GPE,4
+Moors,ORG,4
+Bonds,ORG,4
+Moluccas,GPE,4
+the Fathers in Trade,ORG,4
+Men or Places,ORG,4
+the Fishing Trade,ORG,4
+Belisarius,GPE,4
+the Liberty o●,ORG,4
+Merchants and Shipping,ORG,4
+the Life of Trade,ORG,4
+King's Fortune,ORG,4
+Galleys,GPE,4
+Importation of Timber,ORG,4
+Monopoly in Corporations,ORG,4
+Monarchy,ORG,4
+Imposition of Charge,ORG,4
+the Wealth and Trade of England,ORG,4
+Fruit,ORG,4
+Money with Apprentices,ORG,4
+the Greenland-Company,ORG,4
+Moneys in Exchange,ORG,4
+Friends,ORG,4
+Banks and Cantores,ORG,4
+the Kingdome of Ireland,GPE,4
+the Administration of Justice,ORG,4
+the Books of Rates,ORG,4
+Contraria,GPE,4
+Yarmouth,GPE,4
+Writing,ORG,4
+the Scale of Commerce,ORG,4
+Spaine,ORG,4
+Corporation & Orders for Trade,ORG,4
+truſt,ORG,4
+Works,ORG,4
+Coridon,ORG,4
+Cordial,ORG,4
+Worke,ORG,4
+Corasoa,ORG,4
+Ancestors,ORG,4
+the Society of Merchants,ORG,4
+Sons of Anach,ORG,4
+Statute,ORG,4
+Sterling,ORG,4
+Stock of Flemish Prizes,ORG,4
+Stock of the Nation,ORG,4
+Contemplation,ORG,4
+Amity,ORG,4
+Strength,GPE,4
+Constantinople,ORG,4
+Strength and Health,ORG,4
+Constable,ORG,4
+the Staple Trade,ORG,4
+the Trades of Turkey,ORG,4
+Sons of Merchants,ORG,4
+Soil,ORG,4
+Wolverhampton,GPE,4
+Serpent,GPE,4
+Riches Power,ORG,4
+the Public Government,ORG,4
+euery,ORG,4
+Deare,ORG,4
+Dantzick,GPE,4
+Damages,ORG,4
+Scales,GPE,4
+the Rates of Goods,ORG,4
+the Realm &,ORG,4
 Sell,ORG,4
-the West Indies,GPE,4
-Sugar,GPE,4
-Servant,ORG,4
-Seville,ORG,4
-Reputation,ORG,4
-Rechange,GPE,4
-A.B.,GPE,4
-Provenu,ORG,4
-Bills of Exchanges,ORG,4
-Bearer,ORG,4
-Dantzic,GPE,3
-Warehouses,ORG,3
-Riga,GPE,3
-B.M.,GPE,3
-Mensa,ORG,3
-Register,ORG,3
-Mariner,ORG,3
-Divinity Trust and Confidence,ORG,3
-the Accounted of Profit & Loss,ORG,3
-W.W. Mercer,ORG,3
-Voyage Creditor,ORG,3
-probetur,GPE,3
-Reflection,ORG,3
-Saint Lucar,GPE,3
-"Faith, Trust",ORG,3
-Factors,ORG,3
-Statute of Bankrupt,ORG,3
-Howbeit,GPE,3
-Houses of Vendition,ORG,3
-House,ORG,3
-A.K. Touching Citizens or Merchants,ORG,3
-Honour,ORG,3
-Honour,GPE,3
-Honesty,ORG,3
-Indigo,ORG,3
-Silver,GPE,3
-Albeit,GPE,3
-Young Merchants,ORG,3
-Ireland,GPE,3
-a Letter of Credit,ORG,3
-Star,ORG,3
-"Apparel, Bed",ORG,3
-the West-Indies,ORG,3
-Foreign Ware,ORG,3
-Knights,ORG,3
+Senegal,GPE,4
+Customhouse,ORG,4
+"Shipping,",ORG,4
+CAP,ORG,4
+Apprentices to Merchants,ORG,4
+Ships &,ORG,4
+bee ſubiect,ORG,4
+Cronical,ORG,4
+Sicilia,GPE,4
+the Rent of Land,ORG,4
+Sin,ORG,4
+Sinke,GPE,4
+Answers,ORG,4
+Sloth,GPE,4
+Another Foundation of Trade,ORG,4
+Country Usurer,ORG,4
+the Trades of Spices,ORG,4
+the State and Condition of England,ORG,4
+Destruction of Trade,ORG,4
+"Trade, Shipping",ORG,4
+Thoulouze,GPE,4
+Advantage,ORG,4
+Warlike Provisions,ORG,4
+Warlike English Ships,ORG,4
+Cloth by Tentors,ORG,4
+Towne,GPE,4
+Clock,ORG,4
+Trade and Religion,ORG,4
+Accommodations,ORG,4
+Trade as England,ORG,4
+City,GPE,4
+Trade without Order or Gouernment,ORG,4
+Trades of Germany,ORG,4
+the Trade of Bankers,ORG,4
+Church,ORG,4
+Abuse,ORG,4
+Treasury,ORG,4
+Treatiſe of Free,ORG,4
+Cheanyes,ORG,4
+Voyage,ORG,4
+the Trade of Raw-Silkes,ORG,4
+Centum,GPE,4
+Centre of Commerce,ORG,4
+Turky,GPE,4
+Undertakers,ORG,4
+Vnion,ORG,4
+Canes,ORG,4
+Their Contriving and Building,ORG,4
+Confined,ORG,4
+Taker,ORG,4
+Confession,ORG,4
+Concerns,GPE,4
+the Trades of Merchants,ORG,4
+Surplus,ORG,4
+Surplusage,ORG,4
+"Widows, Orphans",ORG,4
+Communication,ORG,4
+Swally,ORG,4
+Sweeden,GPE,4
+Tabago,ORG,4
+the Stock of England,ORG,4
+Tacitus,ORG,4
+the Stock of this Nation in Trade,ORG,4
+Codfish,ORG,4
+Wharves,ORG,4
+Tautologize,GPE,4
+Commodities Imported,ORG,4
+Commodities Exported and Imported,ORG,4
+West-Indies,ORG,4
+Albeit,GPE,4
+The Balance of Trade,ORG,4
+Colchester Bayes,ORG,4
+The Persian Trade for Silks,ORG,4
+Weapons,ORG,4
+Coin at Home,ORG,4
+Cognizance,GPE,4
+Rents,ORG,4
+Instance,ORG,4
+Regulation,ORG,4
+East India Company,ORG,4
+the Ballance of the Trade of this Kingdome,ORG,4
+neuerthelesse,ORG,4
+Perſonall Exchange,ORG,4
+the Portugal Trade,ORG,4
+the Owners of Fishing Ships,ORG,4
+Perſia,GPE,4
+Protestant Countries,ORG,4
+Prouince,ORG,4
+Prouinciall Exchange,ORG,4
+Engrossers,ORG,4
+Engrossing of Trade,ORG,4
+the Power and Glory of a Nation,ORG,4
+the Ordinance and Munition,ORG,4
+Public Interest,ORG,4
+Dominion and Government,ORG,4
+Profit and Power,ORG,4
+East-Country Merchants of,ORG,4
+Query,GPE,4
+Pilchards,ORG,4
+the American Plntations,ORG,4
+their Societies of Merchants,ORG,4
+Effect,ORG,4
+Positiue,GPE,4
+Edward VI,ORG,4
+Plough,ORG,4
+the Acts of Trade,ORG,4
+Artizan,GPE,4
+Poverty,ORG,4
+Employed,GPE,4
+Plenty,GPE,4
+Press,ORG,4
+Principles of Trade,ORG,4
+Plague,ORG,4
+Priuiledges & Immunities,ORG,4
+Quartfield,ORG,4
+Protestant Religion: Foreign Trade produceth Riches,ORG,4
+Discourses,ORG,4
+Quinsborough,GPE,4
+Pepper and Calicoes,ORG,4
+Dispatches and Returns in Trade,ORG,4
+"Pepper, Diamonds, Silk",ORG,4
+Reducing Interest of Money to 4 per cent,ORG,4
+Reflections,ORG,4
+Estate of 1000,ORG,4
+the Bankrupt for Wares,ORG,4
+Regulated,ORG,4
+Usury Politic,ORG,3
+Place or Country,ORG,3
+Political Councils,ORG,3
+The Ballance of Trade,ORG,3
+The East-India Trade,ORG,3
+Welfare,ORG,3
+Victus,ORG,3
+the Excesse of the Kingdome,ORG,3
+"the Banks of Madrill, Lions",ORG,3
+the Coast of Cormandel,ORG,3
+The Trade for Eastland,ORG,3
+Law on Butchers,ORG,3
+The Trade for Turkey,ORG,3
+Vnskilful,ORG,3
+Turkes,ORG,3
+"People, Riches and Power:",ORG,3
+Noble &,ORG,3
+The United Provinces,ORG,3
+Land in the Country,ORG,3
+the united kingdom,GPE,3
+the Exportation of Money,ORG,3
+Vnited Country,ORG,3
+Plaintiff,ORG,3
+Useful,GPE,3
+West-India Trade,GPE,3
+Plymouth,ORG,3
+North Star of Trade,ORG,3
+the Commonwealth &,ORG,3
+Whale,ORG,3
+Universal Method,ORG,3
+the Common Good,ORG,3
+Taffetas,ORG,3
+Nouelty,ORG,3
+Parts and Industry,ORG,3
+Lawyer's Covetousness,ORG,3
+Vnion and Communion in Trade,ORG,3
+their Importation of Silk,ORG,3
+Peate,ORG,3
+West-India Trades,ORG,3
+Laws and Institution,ORG,3
+African Company,ORG,3
+Territory,ORG,3
+Laws and Encouragements,ORG,3
+the Baseness of this Manufacture,ORG,3
+Objected,ORG,3
+the Weale-Publick,ORG,3
+Votes,ORG,3
+Travels,ORG,3
+Order or Gouernment in Trade,ORG,3
+Trade and Improvement of Lands,ORG,3
+the Bank of Scotland,ORG,3
+Orders,ORG,3
+King and Court,ORG,3
+"the Fiſhing Trade, Res",ORG,3
+Ordinance and Munition,ORG,3
+Trade for Eastland,ORG,3
+Acapulco,GPE,3
+Trade of the,ORG,3
+Kentish Clothiers,ORG,3
+Organsine,GPE,3
+"Perpetuanoes, &c.",ORG,3
+the Circle of Commerce,ORG,3
+Judges of Trade,ORG,3
+the Centre of the Circle of Commerce,ORG,3
+Judgements,ORG,3
+Joynt-Stocks,ORG,3
+Peripheria,GPE,3
+Joint,ORG,3
+Trades of the Kingdome,ORG,3
+Trade and Employment,ORG,3
+Tract of Free Trade,ORG,3
+Berſheba,GPE,3
+Abode,ORG,3
+Tradesmen and Merchants Money,ORG,3
+Ocean,ORG,3
+Weale,ORG,3
+Troublesome,ORG,3
+This Trade & These Merchants,ORG,3
+This Trade of the Hollanders for the East-Indies,ORG,3
+Perſon,GPE,3
+Warres,ORG,3
+Warlike Ships,ORG,3
+Times of Peace,ORG,3
+Vse and Commerce,ORG,3
+Paradoxes,ORG,3
+Kingdoms of Christendom,ORG,3
+Kingdoms and Commonweals,ORG,3
+Opposers of this Trade,ORG,3
+Aduenturours,GPE,3
+"Assembly of Noblemen, Gentlemen",ORG,3
+Treatise of free trade,ORG,3
+Totall,ORG,3
+Totall Importations,ORG,3
+Islands,ORG,3
+Nil,ORG,3
+Subsistence,ORG,3
+Leghorn,ORG,3
+Legitimate Merchants,ORG,3
+Miraculous Power,ORG,3
+Barbary,GPE,3
+Minds,GPE,3
+Millions of People,ORG,3
+Queen Elizabeth's Council,ORG,3
+Milan,GPE,3
+Mightie Trade,ORG,3
+Microcosme,ORG,3
+Shoulders,ORG,3
+Method,ORG,3
+Silks,GPE,3
+"Silver, Coin",ORG,3
+Public Places of Sale,ORG,3
+Simile,ORG,3
 "Province, City",GPE,3
-Mercy,ORG,3
-Chamber,ORG,3
-Profession,ORG,3
-Credit of the Letters,ORG,3
+Mercers of London,ORG,3
+"Men, Shpping and Stock",ORG,3
+Men's Labour,ORG,3
+Native Growth,ORG,3
+Men and Ships,ORG,3
+Proverbial,ORG,3
+a Public Place of Trade,ORG,3
+Societie of Merchants,ORG,3
+Annum Custom,GPE,3
+Maſter Mun's,ORG,3
+Raigne,ORG,3
+Monarchies,ORG,3
+Arabia,GPE,3
+Safety,ORG,3
+Relation,ORG,3
+Multitudes,ORG,3
+Reputation,ORG,3
+this Centre of Commerce,ORG,3
+Mystery,ORG,3
+Riches and Stock,ORG,3
+Regal,ORG,3
+Royall Predeceſſors,ORG,3
+"Ruin, Destruction",ORG,3
+Rulers,ORG,3
+SVch,ORG,3
+Rawe Silks,ORG,3
+"Shearmen, Clothiers, Dyers",ORG,3
+the Council Table,ORG,3
+Sarcenets,ORG,3
+the Wisdom of the Parliament,ORG,3
+Scotch Friends,ORG,3
+Raw,ORG,3
+this Principal Stock,ORG,3
+"Money, Bullion",ORG,3
+Rapine and Force,ORG,3
+National Consequence,ORG,3
+Money and Merchandise,ORG,3
+the Council Board,ORG,3
+Society hath,ORG,3
+Peace,ORG,3
+Society of Merchants,ORG,3
+Sublata Causa,ORG,3
+Neuerthelesse,ORG,3
+Prior and Consuls,ORG,3
+Bayss,GPE,3
+the Company of Merchants Trading,ORG,3
+us,GPE,3
+Principal,GPE,3
+these Two Fundamentals of Trade,ORG,3
+Livelihood,ORG,3
+Precept,ORG,3
+Practices,ORG,3
+Lion,ORG,3
+Subserviency,GPE,3
+Neshech,ORG,3
+Potts,GPE,3
+the Emporium of the Indian Trade,ORG,3
+Mun’s,ORG,3
+Sufferers,ORG,3
+Suffolk,GPE,3
+Suit,ORG,3
+Suratt,ORG,3
+Lesse,GPE,3
+Lender,GPE,3
+Alliance,ORG,3
+Assembly of Noble,ORG,3
+Stragler,ORG,3
+Priuiledges,GPE,3
+Yoke,ORG,3
+Spaine and Portugall: Spaine and Portugall,ORG,3
+"Nature, & his",ORG,3
+Marriners,ORG,3
+Yarnmouth,GPE,3
+Nauigation,GPE,3
+Sovereign,ORG,3
+Spahan,ORG,3
+"Basis of our Wealth, Freedom",ORG,3
+Mariners of England,ORG,3
+nec,ORG,3
+Proiects,GPE,3
+the Drapery of England,ORG,3
+times & trades,ORG,3
+Lotaries,ORG,3
+Navigation and Trade of this Kingdom,ORG,3
+Navigation and Trades,ORG,3
+quae,GPE,3
+Ancient,ORG,3
+Necessary Commodities,ORG,3
+Private Dealers,ORG,3
+Staple Trade,ORG,3
+the Confinement of a Trade,ORG,3
+States and Provinces,ORG,3
+Neighbours,GPE,3
+Lots,ORG,3
+Yong Merchants,ORG,3
+Cashe●ing,ORG,3
+Courts of Parliament,ORG,3
+the Onum Magnum,ORG,3
+Cloth-Trade,ORG,3
+Convenience or Necessity,ORG,3
+Holes,GPE,3
+Highnes,GPE,3
+General Benefit,ORG,3
+the Realm for Exportations and Importations,ORG,3
+"Clothes, Kerſies",ORG,3
+"Clothes, Plate",ORG,3
+the Principal Advantage and,ORG,3
+Examination,ORG,3
+Canker of England's,ORG,3
+Dobbs,ORG,3
+Burden,GPE,3
+the Notion of Sellers,ORG,3
+Boston,GPE,3
+"the Trade of Bays, Says",ORG,3
+the Trade from England,ORG,3
+the Noble Lord Sheffield,ORG,3
+Exchequer,ORG,3
+"Cloth, Led, Tin, Iron, Fish",ORG,3
+"Cloth, Led, Tin",ORG,3
+Fleetes,GPE,3
+the Trade of Couchin-China,ORG,3
+"Frugality, Industry and Temperance",ORG,3
+Dutch Commodity,ORG,3
+Fruits,ORG,3
+City and City,GPE,3
+Essential to Trade as Victuals,ORG,3
+Currants,ORG,3
+Estate and Business,ORG,3
+the Trade with Japan,ORG,3
+Florentines,ORG,3
+Broad-Cloths,ORG,3
+Householdstuff,GPE,3
+the Positive Exchange,ORG,3
+Dragon,ORG,3
+Bulwarks,GPE,3
+Gresliam,ORG,3
+Cordage,ORG,3
+Copper,GPE,3
+the Realm of England,ORG,3
+the Levant Company,ORG,3
 Coine,GPE,3
-Untenanted,ORG,3
-Money lie Dead,ORG,3
-THE Credit of Merchants,ORG,3
-Newcastle,GPE,3
-Country and Countries,ORG,3
-Capital or Stock Creditor,ORG,3
-Protection,ORG,3
-Usury,GPE,3
-Taxes,ORG,3
-Carta,GPE,3
-The Custom of Merchants,ORG,3
-the Custom of London,GPE,3
-Cross and Inscription,ORG,3
-the Letters of Credit,ORG,3
-Creditors Prosecute,ORG,3
-Company,ORG,3
-Christendom,ORG,3
-China,GPE,3
-Custom,ORG,3
-Credit or Exchange,ORG,3
-Perpetuanoes,ORG,3
+the Turkey Merchants do Ship,ORG,3
+the Quum Magnum,ORG,3
+Deer,ORG,3
+"Commodities, Money",ORG,3
+"Commodities, Trade",ORG,3
+Concern,ORG,3
+the Public Interest,ORG,3
+the Public Measure,ORG,3
+the Public Welfare,ORG,3
+Brick,ORG,3
+Complaint,ORG,3
+Farming,ORG,3
+Caesar,ORG,3
+the King of Great Britain,ORG,3
+Fabric,ORG,3
+Greatnesse,GPE,3
+Companies of Merchants,ORG,3
+Companies of Merchants of London,ORG,3
+Factors,ORG,3
+Dealings and Combinations,ORG,3
+Defect,ORG,3
+Concern of Trade,ORG,3
+the Trade and Manufacture,ORG,3
+Board's,ORG,3
+Destructive to Trade,ORG,3
+Butter,ORG,3
+Fauour,GPE,3
+the United Netherlands,GPE,3
+the Prudence & Prouidence,ORG,3
+Constables,ORG,3
+"Breakers, Combers,",ORG,3
+Commanders,ORG,3
+Commerce of Merchants,ORG,3
 Bond,ORG,3
-Plate,ORG,3
-King Henry 8),ORG,2
-Nullo,ORG,2
-Tallow,GPE,2
-Procuration,ORG,2
-Westminster,GPE,2
-Privileges which Land,ORG,2
-Kingdome,GPE,2
-West-India,GPE,2
-Owner,ORG,2
-Woods,ORG,2
-Wisdom,ORG,2
-"Iron, Led, Tin",ORG,2
-Pamphlet,ORG,2
-Prior and Consuls,ORG,2
-Town,GPE,2
-Sicilia,GPE,2
-Labour,ORG,2
-Practice,ORG,2
-Indostan,GPE,2
-Sin,ORG,2
-Parliament Anno,ORG,2
-Poverty,ORG,2
-Perpetuanoes,GPE,2
-Yarmouth,GPE,2
-Public Affairs,ORG,2
-Land,ORG,2
-Province,GPE,2
-Lixborne,GPE,2
-Sugar-Bakers,ORG,2
-Lots,ORG,2
-Sugars,GPE,2
-Provenu,GPE,2
-Plymouth,GPE,2
-Manufacture,ORG,2
-"Reys, Reduction of Portugal",ORG,2
-Purpose,ORG,2
-Purchases,ORG,2
-Mariners,ORG,2
-Mascavado,ORG,2
-Middleborough,GPE,2
-Public Taxes,ORG,2
-Mutandis,ORG,2
-Naples,GPE,2
-Land for Money,ORG,2
-Statute of Bankrupts,ORG,2
-Scrivener,ORG,2
-"Laws, Government",ORG,2
-Statute,ORG,2
-Letter of Credit,ORG,2
-Velvets,ORG,2
-Necessitas,ORG,2
-Natural,ORG,2
-Rome,GPE,2
-Professions,ORG,2
-Letters Missive between Merchants,ORG,2
-Nation and Nation,ORG,2
-Profit and Loss,ORG,2
-Substance,ORG,2
-Rouen,ORG,2
-Mutatis,GPE,2
+Dampe,GPE,3
+Habitations,ORG,3
+Denmark Seas,GPE,3
+Confirmation,ORG,3
+Commodities,GPE,3
+Confederacy and Combination,ORG,3
+Gouerned Trades,ORG,3
+the Stuff-Trade,ORG,3
+Esop,GPE,3
+Honourable,ORG,3
+Brain,ORG,3
+Branches,ORG,3
+Influence and Authority,ORG,3
+the Grave Senators,ORG,3
+the Royal Caroline,ORG,3
+the People's Perverseness,ORG,3
+Foreign Countries,ORG,3
+East-India Trade,ORG,3
+Indentures,ORG,3
+Chancery,ORG,3
+Charity,ORG,3
+Inconueniencies,ORG,3
+the Pepper Trade,ORG,3
+"Foreign Trade,",ORG,3
+East-India Goods,ORG,3
+Carseyes,ORG,3
+Counsels,GPE,3
+Influence,ORG,3
+Center of this Circle,ORG,3
+Country,GPE,3
+Cultivating,ORG,3
+Cause of the Decay of Trade,ORG,3
+the Trade of the Indies,ORG,3
+the Royal Bank,ORG,3
+Eastindie Trade,ORG,3
+Forts,GPE,3
+Enemies,ORG,3
+English Commodity,ORG,3
+the Parliamentation and Consultation,ORG,3
+the Merchants Aduenturers Trade,ORG,3
+the People of this Nation,ORG,3
+Counties,GPE,3
+Cattle,ORG,3
+Encrease of Trade,ORG,3
+Iniury,ORG,3
+Bullion is Imported,ORG,3
+Inland,ORG,3
+Immunities,GPE,3
+Incorporated foreign Trades,ORG,3
+Equinoctial,ORG,3
+the People of the United Netherlands,ORG,3
+the Importation of w●o●,ORG,3
+the Orderly Trade of Merchants,ORG,3
+the Poor in England,ORG,3
+the Treatise of Free Trade,ORG,3
+Bills of Exchanges,ORG,3
+Corporations of this,ORG,3
+Brandenburg,GPE,3
+Forrein,GPE,3
+Cinnamon,ORG,3
+Cicero,ORG,3
+Chriſtendome,GPE,3
+Friends and Allies,ORG,3
+Foreigner,ORG,3
+the Historical and Chronological Deduction,ORG,3
+Courses,ORG,3
+Entries,ORG,3
+Foreign-Merchants,ORG,3
+the Trade of Perſia,ORG,3
+Inland Commodities,ORG,3
+Cruelty,ORG,3
+Cape Rouge,GPE,3
+Countries of Europe,ORG,3
+Fountain,GPE,3
+East Indie Trade,ORG,3
+East India Trade,ORG,3
+Incorporated Foreign Trades,ORG,3
+the How foreign Trade,ORG,3
+Damages of,ORG,2
+"Salsaparilla, Tobacco, Canafistula",ORG,2
+Apprenticeship,ORG,2
+Sallee,ORG,2
+consequence,GPE,2
+all European Nations,ORG,2
+Dantzic,GPE,2
+Saint Thomas,GPE,2
+Creseit,ORG,2
+Saint Malloes,GPE,2
+"Silks, Cambrics",ORG,2
+Daughters & Coheirs,ORG,2
+the Publique Vtility of the Kingdome,ORG,2
+contra,ORG,2
+the Publique Liberty,ORG,2
+Creditors Prosecute,ORG,2
+Silver,ORG,2
+Credit or Exchange,ORG,2
+congress,ORG,2
+Scarborough,GPE,2
+another Abatement of Interest,ORG,2
+the Radical Moisture of the Body,ORG,2
+Shirts,ORG,2
+Sectaries,ORG,2
+Apologue,ORG,2
+Security for Money,ORG,2
+Crowne,ORG,2
+Customs and Imposts,ORG,2
+Butus,ORG,2
+bin conferr'd,ORG,2
+Sentence,ORG,2
+Custom-House-Books,ORG,2
+Sentinell,ORG,2
+Buying,GPE,2
+Cuchanel,GPE,2
+Seu,ORG,2
+c.44,ORG,2
+Seymour,GPE,2
 byte,ORG,2
-Committees,ORG,2
-the Customs of Merchants,ORG,2
-"Contracts, Letters of Credit",ORG,2
-Cornelius Tacitus,ORG,2
-Bills of Debt,ORG,2
-the Office of Prior and Consuls,ORG,2
-the East-Indies,ORG,2
-Berne,ORG,2
-Countries,ORG,2
-the East Indies,ORG,2
-Country where Interest of Money,ORG,2
-Credit of Land,ORG,2
-the Books of Accounts,ORG,2
-Batter,ORG,2
-Barbadoes Sugars,ORG,2
-the Council of State,ORG,2
-the Proprietors of Land,ORG,2
-the Building of Ships,ORG,2
-Banker,ORG,2
+"Shipping, Trade, Treasure",ORG,2
+buſie,GPE,2
+Shell,ORG,2
+boil & prepare,ORG,2
+Seaman,ORG,2
+Arbitrators,ORG,2
+Sealing of Cloth,ORG,2
+Scale,GPE,2
+Dallers,ORG,2
+Sandyford,GPE,2
+Sapor King of Perſia,ORG,2
+Crinitus & Volater,ORG,2
+Satin,GPE,2
+Cromwell,ORG,2
+Savage,ORG,2
+Say,GPE,2
+Cuſtome,GPE,2
+Cutchenelle,GPE,2
+Seal,ORG,2
+Scarcity,ORG,2
+the Rational Faculties,ORG,2
+Scotch Merchants,ORG,2
+"Shot, Ordnance,",ORG,2
+Scotch Prizes,ORG,2
+Crowne,GPE,2
+Shoomack,GPE,2
+colonies,GPE,2
+Customs of the Turks,ORG,2
 Dealings,ORG,2
-the Roots of Trees for Fuel,ORG,2
-the Brokers of Exchanges,ORG,2
-Blanco,ORG,2
-Constituants,ORG,2
-the English Interest,ORG,2
-"Consells, Admirals",ORG,2
-Certificate,ORG,2
-Castille,GPE,2
-the Lady Margaret Duchess,ORG,2
-the Industry of Beginners,ORG,2
-the Law-Merchant,ORG,2
-Citizens or Merchants,ORG,2
-Clothes,ORG,2
-Canterbury,GPE,2
-Coin,ORG,2
-Callings,ORG,2
-the Factor of Lixborne,ORG,2
-Commission of the Statute of Bankrupt,ORG,2
-Commissions,ORG,2
-Calis,GPE,2
-the Letter of Advice,ORG,2
-Bullion,ORG,2
-Commodum,GPE,2
-Communication,ORG,2
-Build,GPE,2
-Debtor & Creditor,ORG,2
-Banks,ORG,2
-Authority,ORG,2
-Foreign Trade,ORG,2
-Farmers,ORG,2
-the Testators Debts,ORG,2
+Instance of the Consequence of that Trade,ORG,2
+Royall as Reall,ORG,2
+Principles,GPE,2
+the Politic Body of Traffic,ORG,2
+Bullion or Royals,ORG,2
+quem inuidia,ORG,2
+Privileges and Immunities,ORG,2
+Privy Chamber,ORG,2
+poor & mechanic,ORG,2
+no Diminution of Trade or Conveniencies,ORG,2
+Productions,ORG,2
+ENGLAND,ORG,2
+newfoundland,GPE,2
+Arrows,ORG,2
+the Poor of England,ORG,2
+Profitable Trade,ORG,2
+Dunkirk,ORG,2
+the Portugal Merchants,ORG,2
+Drugs,ORG,2
+Propriety,ORG,2
+Dropsy,ORG,2
+Protection,ORG,2
+the Portugall Trade,ORG,2
+Drain,GPE,2
+the Prejudice these Men,ORG,2
+Provincial Council,ORG,2
+Prudence,GPE,2
+Prudent and Charitable Institution,ORG,2
+Prussia,GPE,2
+Arrests,ORG,2
+East-India Ships,ORG,2
+smith's,ORG,2
+Dominion of Wales,ORG,2
+Primitive Charters,ORG,2
+Elected,ORG,2
+Elder Brothers,ORG,2
+Egg,GPE,2
+the Persian Trade,GPE,2
+Ports and Places of Trade,ORG,2
+their Trade of Surrat,ORG,2
+the Admiralty Court,ORG,2
+the Admiral Court,ORG,2
+the Physicians of Commonweals,ORG,2
+the Policy of Trade,ORG,2
+Posterities,ORG,2
+Potentiall Exchange,ORG,2
+"Pots, Bottles, Wheat,",ORG,2
+Bullion and Dollars,ORG,2
+Poundage,GPE,2
+Ecclesiastical Livings,ORG,2
+Eastland Merchants,ORG,2
+Powers and Authorities,ORG,2
+Poſitiue,GPE,2
+Artificial,ORG,2
+the General Good of a Nation,ORG,2
+Eastern Commodities,ORG,2
+Presents to Governors,ORG,2
+Easterlings,ORG,2
+Presse,ORG,2
+Articles,GPE,2
+Pride,ORG,2
+Bumery,ORG,2
+Publique Vtility,ORG,2
+Royall and Regall Gouernment,ORG,2
+the Provision the Planters,ORG,2
+Residence,ORG,2
+Respect,ORG,2
+Retail Trade,ORG,2
+"Retail, Shopkeepers, Brewers, Woodmongers, Herring-mongers",ORG,2
+Retailers,ORG,2
+Aristotle Oemund ▪,ORG,2
+the Treatise De,ORG,2
+firſt,GPE,2
+first ▪ caveat emptor,ORG,2
+Rhyme,ORG,2
+Deliuerer,ORG,2
+Defence of the Country against Invasion,ORG,2
+Riga,GPE,2
+Rivers for Water Mills,ORG,2
+Rivers for Water-Mills,ORG,2
+Roan,GPE,2
+euery County,GPE,2
+Romanes,ORG,2
+Debtor and Creditor,ORG,2
+Rouen,ORG,2
+each English Corporation of Merchants,ORG,2
+Debt,GPE,2
+doth daily,ORG,2
+Dearness,ORG,2
+Royal Merchants,ORG,2
+Royal Stamp,ORG,2
+de Legib,ORG,2
+Crafts,ORG,2
+"food, Raiment & Munition",ORG,2
+Purchases,ORG,2
+grey Heads,ORG,2
+Purpoſe firſt & chiefs't,ORG,2
+Purses,GPE,2
+Qualifications of Industry and Ingenuity,ORG,2
+Quality,ORG,2
+Domestique,ORG,2
+the Productions of the Spanish,ORG,2
 Arragon,GPE,2
-Fate,ORG,2
-Armar,GPE,2
-nec,ORG,2
-maketh,ORG,2
-Fly,ORG,2
-Frankford,ORG,2
-Fallere,GPE,2
-Freight,ORG,2
-Antuerpe,GPE,2
-Answer,ORG,2
-the united Low Provinces,ORG,2
-bee,ORG,2
-Hamborough,GPE,2
-Hamborough Creditor,ORG,2
-Home,ORG,2
-the Sugar-Bakers,ORG,2
+Diſcourſe,ORG,2
+Distinction,ORG,2
+Discoveries,ORG,2
+Armours,ORG,2
+Disability,ORG,2
+Reals of Plate,ORG,2
+Rebus,ORG,2
+Recall Trade of Merchants,ORG,2
+india,GPE,2
+Rectum,GPE,2
+Reducing Interest of Money,ORG,2
+Difficulties,ORG,2
+Reflection,ORG,2
+"Differences between Merchants, Masters of",ORG,2
+the Protection of Princes,ORG,2
+Devil,ORG,2
+house of Commons,ORG,2
+Determination,ORG,2
+Arithemetick and Merchants-Accounts,ORG,2
+Religions,ORG,2
+"Rents, Merchants in Grosse",ORG,2
+the Scale: &,ORG,2
+Sinewes of Warre,ORG,2
+City Usurer,ORG,2
+Tobacco,GPE,2
+Clothes and Kerſies,ORG,2
+Todde,ORG,2
+Tolle,GPE,2
+Tolouse,GPE,2
+Canterbury,GPE,2
+Cloth ▪ Stuffs,ORG,2
+Warehouse,ORG,2
+Tower,ORG,2
+Aduenturers,ORG,2
+the Trade of Calicoes,ORG,2
+Admiralty Court,ORG,2
+the Trade of Corints,ORG,2
+Cloth,GPE,2
+Admiral,GPE,2
+Trade and Arts,ORG,2
+Accusation,ORG,2
+Closes,ORG,2
+Trade and Forraine Negotiation,ORG,2
+Trade and Government,ORG,2
+Trade and Improvement,ORG,2
+Clifford's - Inn,ORG,2
+Clerks of Lords,ORG,2
+Trade and Traine,ORG,2
+Clamours,ORG,2
+Trade at Discretion,ORG,2
+Clamour,ORG,2
+Trade of England,ORG,2
+Trade of Ireland,GPE,2
+Tiſſue,GPE,2
+Adventure 5 per Cent per Annum,ORG,2
+the Trade of Bengal,ORG,2
+Coin either Gold,ORG,2
+The Italian Merchants,ORG,2
+The Leuant Company The Leuant Company,ORG,2
+The Merchants-Aduenturers,ORG,2
+the Trade and Commerce,ORG,2
+The Nobility and Gentry,ORG,2
+The People of New-England,ORG,2
+The Privileges of encorporated Cities and Towns,ORG,2
+The Prouinciall Exchange,ORG,2
+The Realm of England,ORG,2
+Coin or Reals,ORG,2
+The State of Genova,ORG,2
+Wealth and Power,ORG,2
+Coin of Christendom,ORG,2
+The Trade of India,ORG,2
+"Timber,",ORG,2
+the Trade with Money,ORG,2
+The Turkey-Company,ORG,2
+the Trade and Welfare of the Nation,ORG,2
+Cocos,GPE,2
+Coast,ORG,2
+Thiefs,ORG,2
+Thirtie thousand Clothes yeerely & at great prises,ORG,2
+Clothworkers,ORG,2
+Clothing bin quickned & enlivened,ORG,2
+Clothiers and Merchants,ORG,2
+Wasted,ORG,2
+Canker,ORG,2
+Tilling,GPE,2
+"War, Trade and Building of Fortified Towns",ORG,2
+War,GPE,2
+The French Company The French Company,ORG,2
+Want of Gouernment,ORG,2
+Centres of Commerce,ORG,2
+Twins,ORG,2
+Centaur,GPE,2
+Uncertainties,ORG,2
+the Trade of our Manufactures,ORG,2
+the Trade of the Clothes,ORG,2
+Caution,GPE,2
+Untenanted,ORG,2
+Unthrift,ORG,2
+Us,GPE,2
+Usurer,ORG,2
+Cartagenia,GPE,2
+Abatement,ORG,2
+A Regulated Company,ORG,2
+Usury of Course,ORG,2
+Utrecht,GPE,2
+Vnfeigned,ORG,2
+Value,ORG,2
+Cato.,ORG,2
+Veins,ORG,2
+yong Noble,ORG,2
+the Trade of the Kingdom,ORG,2
+Venice Gold,ORG,2
+Versailles,GPE,2
+Violet Stephens,ORG,2
+Violet,ORG,2
+Victualling,GPE,2
+Victum & Vestitum,ORG,2
+the Trade of the Nation,ORG,2
+Ceremony,ORG,2
+Ceuta,GPE,2
+Chamblets,GPE,2
+the Trade of Merchandise,ORG,2
+Citizens and Merchants,ORG,2
+Cities of France,ORG,2
+Cities and Towns Corporate,ORG,2
+Trade with Money,ORG,2
+Cities &,ORG,2
+Cities,GPE,2
+"Trade, Undervaluation",ORG,2
+Circle of Commerce,ORG,2
+Cantons,ORG,2
+the Trade of Izland,ORG,2
+Transito,GPE,2
+Transportation,ORG,2
+Travellers,GPE,2
+Abroad,GPE,2
+Tun,ORG,2
+Treatise of Exchanges,ORG,2
+Treatise of Taxes and Contributions,ORG,2
+the Trade of this Kingdom,ORG,2
+Chimney,ORG,2
+Vse-Money,ORG,2
+Tribute,ORG,2
+Tripoli,GPE,2
+Tropicus Cancri,GPE,2
+Troubles,ORG,2
+Charity,GPE,2
+Chapelle,GPE,2
+Trust,ORG,2
+Ability for Commerce,ORG,2
+Colleges,ORG,2
+The French,ORG,2
+the Residence of the Merchant Aduenturers,ORG,2
+Stocks,GPE,2
+St.,GPE,2
+"Corints, Wines",ORG,2
+Workmen,GPE,2
+Workmanship,GPE,2
+Standard,ORG,2
+Staple Laws,ORG,2
+Staple Merchandise,ORG,2
+Staple Ports,ORG,2
+Staple Towns,ORG,2
+Copenhagen,ORG,2
+the Society of Goldsmiths and,ORG,2
+Woollen-Manufactures,ORG,2
+Convenience of the Public,ORG,2
+State-Encouragement,ORG,2
+Amstelredam,GPE,2
+the Society of the Hans,ORG,2
+States of Itally,ORG,2
+Contracts of Commerce and Alliances with Princes and Governors,ORG,2
+Woolfels,ORG,2
+Statute Staple,ORG,2
+Statute-Books,ORG,2
+Stealing,ORG,2
+"Steel, Cambrics",ORG,2
+Contracts for Martain Affairs,ORG,2
+Woolfells,ORG,2
+Stock,ORG,2
+Stock in Foreign Trade,ORG,2
+Contracts and Stipulation,ORG,2
+Contracts,ORG,2
+the Seaman 5 Pieces,ORG,2
+the Science of the Mathematiks,ORG,2
+Spice,ORG,2
+Countrey,ORG,2
+Sinews of Trade,ORG,2
+the Retail Trade of the Watermens,ORG,2
+Court or Courts of Merchants,ORG,2
+Societie,ORG,2
+Courage of the late,ORG,2
+Younger,ORG,2
+Young Merchants,ORG,2
+Yong Merchants:,ORG,2
+County,GPE,2
+the Transportation of the Materials of our Cloth,ORG,2
+Soldier,ORG,2
+Yong,GPE,2
+Solon,ORG,2
+this Treatise the Centre of the Circle of commerce,ORG,2
+Embden,GPE,2
+the Royal Exchange,ORG,2
+South Barbary,GPE,2
+Southampton,GPE,2
+Councils of Trade,ORG,2
+Sovereigns,GPE,2
+Council Provincial,ORG,2
+Sowen,ORG,2
+Cottonwooll,ORG,2
+Spain & Germany,ORG,2
+Corporation of Merchants,ORG,2
+Wretch,ORG,2
+the Scale of Importation,ORG,2
+Speech,ORG,2
+Stockings,ORG,2
+Stockton,GPE,2
+Wells,ORG,2
+the Spanish Wares,ORG,2
+Whitby,ORG,2
+Allegory,ORG,2
+THE IMPORTATION OF GOODS OF ALMOST ALL KINDS,ORG,2
+THe Levant Company,ORG,2
+THeſe,ORG,2
+THis East-India Trade,ORG,2
+Tabac●,ORG,2
+Commons and Wastes,ORG,2
+Commodity of England,ORG,2
+Wheras the Merchants-Aduenturers,ORG,2
+Whatever Nation,ORG,2
+Alexandria,GPE,2
+"Commodities, & the",ORG,2
+Wharfinger,ORG,2
+Tartars,ORG,2
+Wharf,GPE,2
+Commodities of Trade,ORG,2
+Aleppo,GPE,2
+"the Trade, Shipping and",ORG,2
+Commmodities of the Realm,ORG,2
+Teran,ORG,2
+Commiſsion,ORG,2
+Cambrics,GPE,2
+Commercium,GPE,2
+West-India Plantations,GPE,2
+The Ballance of the Trade of the Kingdome is Debitor,ORG,2
+West-India,GPE,2
+Command,ORG,2
+"Coloured Clothes, Kerſies",ORG,2
+Communicate,GPE,2
+Community,ORG,2
+Commutations,ORG,2
+American Commodities,ORG,2
+the Spanish West Indies,ORG,2
+Woods,GPE,2
+Consumption of Foreign Wares,ORG,2
+Strangers Ships,ORG,2
+the Staple Countries for Silks,ORG,2
+Constables and Fellowship of Merchants,ORG,2
+Considerable Diminution,ORG,2
+the Staple of England,ORG,2
+Consequence,GPE,2
+Sublatâ,GPE,2
+Consciences,ORG,2
+Connivance,GPE,2
+Succads,GPE,2
+Sufficiency,ORG,2
+Surrenham,GPE,2
+whereunto,GPE,2
+Compost,ORG,2
+Suggestion,ORG,2
+Wills,ORG,2
+Compeigne,GPE,2
+Sums of Money with Apprentices,ORG,2
+Almshouses,GPE,2
+Compassion,GPE,2
+Supplant,ORG,2
+Supreme,ORG,2
+Sureties,GPE,2
+Surfeit,ORG,2
+Surinam,GPE,2
+Populi,GPE,2
+"Bullion and Monies, Forraign or Sterling",ORG,2
+the Ancient Commutation,ORG,2
+Luxury,GPE,2
+Basis of true valuation,ORG,2
+the Turkey Trade,GPE,2
+Maritime,ORG,2
+Market,GPE,2
+Grand-Cairo,GPE,2
+the Kingdoms of Great Britain,GPE,2
+Government Errors,ORG,2
+Marske,ORG,2
+Mastix,ORG,2
+the Land Trade,ORG,2
+Good and Prosperity,ORG,2
+Golden,GPE,2
+Maſſie,GPE,2
+Gold and Dollars,ORG,2
+Mediocria,GPE,2
+the Lay-Stall at Billingsgate,ORG,2
+Globe,ORG,2
+Giotto,GPE,2
+the Learning of the Art or Science of Merchandizing,ORG,2
+Gibelines,ORG,2
+the Deformation and Reformation of Trade,ORG,2
+Barretti,ORG,2
+the Decay of Trade Iointly,ORG,2
+Merchants A Society,ORG,2
+Genua,GPE,2
+Merchants Contracts,ORG,2
+Merchants and Accomptants,ORG,2
+Boroughmasters,GPE,2
+Merchants-Adventurers,ORG,2
+the Kingdom of France,GPE,2
+the Turkey Trade,ORG,2
+the Kingdom at,GPE,2
+Maine,GPE,2
+"Bays, Tin, Led",ORG,2
+the East Indies in Reals,ORG,2
+HIM,ORG,2
+the East Indian Company,ORG,2
+Madrid,GPE,2
+the East Indian Books,ORG,2
+Gysborough,GPE,2
+Magazin,ORG,2
+Magistrate,ORG,2
+Guns,ORG,2
+Gunpowder,GPE,2
+Maieſties Subiects,ORG,2
+Main,ORG,2
+Maintaining Forces and Forts,ORG,2
+Manufactured at Home,ORG,2
+Boards,GPE,2
+Majesties,ORG,2
+Guinia,GPE,2
+Guinea,GPE,2
+Majesty's Court,ORG,2
+Malice Picks,ORG,2
+Malliga,GPE,2
+Malynes Par of Exchange,ORG,2
+Malynes Parity,ORG,2
+the King's Seas,ORG,2
+Mankind,ORG,2
+Griping Dronish,ORG,2
+Manufacture of Blue Cloth,ORG,2
+Middleborough,GPE,2
+Middlesex,GPE,2
+the Limits of the Companies,ORG,2
+National Advantage,ORG,2
+Multiply,ORG,2
+Foundation of our Trade,ORG,2
+Fort,GPE,2
+Munition and Men,ORG,2
+Forreine Nations,ORG,2
+the Councils of Trade,ORG,2
+the Council of the Admiralty,ORG,2
+Forreine Countries,ORG,2
+Muskets,ORG,2
+Forraine,ORG,2
+Naples,GPE,2
+the Merchandize of England,ORG,2
+"Forests, Commons and Wastes",ORG,2
+"the Merchant Stranger, Concerning the Trade of Merchant Strangers",ORG,2
+Fraight,GPE,2
+Foreign Ware,ORG,2
+Natiue Commodities,ORG,2
+the Correctors of the Staple,ORG,2
+the Merchants Adventurers,ORG,2
+Foreign Manufactors,ORG,2
+Native Subjects,ORG,2
+Foreign Dealers,ORG,2
+the Corn of Poland,GPE,2
+Foreign Country,ORG,2
+Foreign Commerce,ORG,2
+Bankers in London,ORG,2
+Naval Power,ORG,2
+Navigation and Trade,ORG,2
+Mother-Kingdom of England,GPE,2
+Brabant,GPE,2
+the Livery Men of the said City,ORG,2
+Money for Wares,ORG,2
+the Customs of Merchants,ORG,2
+Gain the Centre of commerce,ORG,2
+Miseries,ORG,2
+Misery,ORG,2
+Mississippi,GPE,2
+Mistaken Prejudices,ORG,2
+Furnishing,GPE,2
+Fundamental Error,ORG,2
+Monarchy,GPE,2
+Fund of Wealth,ORG,2
+the Treatise of free Trade,ORG,2
+Barbadoes Planters,ORG,2
+Money and Men,ORG,2
+Money lie Dead,ORG,2
+the Court of Parliament,ORG,2
+the Currant Exchange,ORG,2
+Frontispiece,ORG,2
+Moneys and Exchange,ORG,2
+Freights,ORG,2
+Pollicie,ORG,2
+the Cultivation of the Earth,ORG,2
+Free Trade,ORG,2
+Monopoly,ORG,2
+Fran●● ▪,ORG,2
+Monsieur Bodine,ORG,2
+Monyes,GPE,2
+Moone,ORG,2
+Franckforde,ORG,2
+MEndacem,ORG,2
+Lucrum Cessans,ORG,2
+the Merchants-Adventurers Trade,ORG,2
+Loyal,ORG,2
+the Griping Dronish Usurer,ORG,2
+Beneficial Commodities,ORG,2
+King Henry,GPE,2
+the Fleets of Shipping,ORG,2
+Impression,ORG,2
+King and Country,ORG,2
+the Hambrough Company,ORG,2
+the Want of Money,ORG,2
+the Fiſhing Trade,ORG,2
+"King, Lords & Commons",ORG,2
+Immunity or Priuiledge,ORG,2
+Belisarius,ORG,2
+Immortall,GPE,2
+Imitation,ORG,2
+the House of Lords the Money,ORG,2
+Belisario,GPE,2
+the Fishing Season,GPE,2
+Ignorance,GPE,2
+Knights and Gentry,ORG,2
+"Iewels, Cloth of Gold",ORG,2
+Iarres,ORG,2
+the Improvement of Ireland,ORG,2
+Husbands and Wives,ORG,2
+the Exportation of Woollen Manufacture,ORG,2
+Husbands,GPE,2
+Land and Money,ORG,2
+Land for Money,ORG,2
+Hunters,ORG,2
+the Inconueniences of the want of gouernment,ORG,2
+"Kerseys, Led, Tin",ORG,2
+the Free Trade of the Merchants of the Staple,ORG,2
+Improvements of Trade,ORG,2
+Bills of Exchange,ORG,2
+Bills,GPE,2
+Billingsgate,ORG,2
+the General Interest,ORG,2
+Innkeeper,ORG,2
+Intereſt,ORG,2
+Interlooper,ORG,2
+Ioyntly,ORG,2
+Better Execution,ORG,2
+Inhabiting,GPE,2
+the French Kings Council,ORG,2
+Bills of Bottomry,ORG,2
+Indistinction,ORG,2
+the Government of a Monarchy,ORG,2
+Bergen,GPE,2
+Karsey,GPE,2
+the Government of the Hospitals,ORG,2
+Iudicious Merchants,ORG,2
+the French Academy of Sciences,ORG,2
+Indian Goods,ORG,2
+Iustice,ORG,2
+India Goods,ORG,2
+Jewels,ORG,2
+Joint Stocks,ORG,2
+Inconveniency,ORG,2
+KING,ORG,2
+KING and Nation,ORG,2
+KINGDOM,GPE,2
+Impurity,ORG,2
+the Experience and Confession of all Men,ORG,2
+Land-Taxes,ORG,2
+the Inconveniencies of Excess,ORG,2
+Little Summers-Key,ORG,2
+Height of Interest,ORG,2
+Lexmercatoria,GPE,2
+Bearer,ORG,2
+the English Dominion,ORG,2
+the Empire of Persia,GPE,2
+Life,ORG,2
+Lignum,ORG,2
+Heads,ORG,2
+"Havens, Discoveries",ORG,2
+Linne,GPE,2
+Hartlepole,ORG,2
+Hares,ORG,2
+Lisland,GPE,2
+Lituania,GPE,2
+Letters Patens,ORG,2
+Happiness,ORG,2
+Livelihood to Himself and Family,ORG,2
+the KING & STATE,ORG,2
+Liverpool,GPE,2
+the KINGS Customes and Subsidies,ORG,2
+Loaden,ORG,2
+Lock,ORG,2
+the West-Country Merchants and Owners of the Fishing-Ships,ORG,2
+London-Bridge,ORG,2
+Looms,ORG,2
+the King & Kingdom,ORG,2
 the King and Commonwealth,ORG,2
+the King of England's,ORG,2
+Heirs,ORG,2
+Hepaties,ORG,2
+Landlord,GPE,2
+Honey,ORG,2
+Hudson’s Bay,ORG,2
+the Inhabiting of Virginia,ORG,2
+the Excessive Dearness of Silk,ORG,2
+the Inland Trade,ORG,2
+Latona,GPE,2
+Bishop,ORG,2
+Law-Suits,ORG,2
+Hooks and Lines,ORG,2
+Laws about Interest of Money,ORG,2
+Hookemakers,ORG,2
+the Estates General,ORG,2
+Blackney,GPE,2
+Lawyer,ORG,2
+the Intricacy of this Question,ORG,2
+Lesse Treasure,ORG,2
+Le Roll d',ORG,2
+Blades,ORG,2
+the Essential Parts of Traffic,ORG,2
+the Equinoctial Line,ORG,2
+the English Trade and Nation,ORG,2
+"Led, Tin,",ORG,2
+Holland Cloth,ORG,2
+Highnes Cuſtomes,ORG,2
+Heterocliton,GPE,2
+Hesiod,ORG,2
+Herrings,ORG,2
+Blank Bills,ORG,2
+the English Interest,ORG,2
+Forasmuch,ORG,2
+the Mart Towns,ORG,2
+the Chariot of Trade: this,ORG,2
+the Centre of their Trade on the North Coast of India,ORG,2
+the house of commerce,ORG,2
+the City of,GPE,2
+Oskestrand,GPE,2
+Aulnegeors,ORG,2
+Our City of,GPE,2
+Our Kingdom,GPE,2
+the Christian World,ORG,2
+Our said Proclamation,ORG,2
+Ovid's Allusion,ORG,2
+Owner of Land,ORG,2
+Paid the Army,ORG,2
+the Cause of the Riches of any Country,ORG,2
+Experience of Trade,ORG,2
+Pamphlet,ORG,2
+the moſt expert & iudicious Merchants of,ORG,2
+the Canker of England's,ORG,2
+Broad-Cloaths,ORG,2
+the Burden of Trade,ORG,2
+the Nurseries of Trade,ORG,2
+Examples of Ireland,GPE,2
+Evil,ORG,2
+the Breasts of Industry,ORG,2
+the united Provinces of the Low,ORG,2
+the Oath of Allegiance,ORG,2
+Experience & Education,ORG,2
+Export Annually,ORG,2
+Numbers,ORG,2
+Oils,GPE,2
+the house of Commons,ORG,2
+the Clothier & the Wool,ORG,2
+the New Company,ORG,2
+FRIENDS,ORG,2
+"the Cloth, Led,",ORG,2
+the Cloth of this Kingdome,ORG,2
+Eſtate,GPE,2
+Oceana,GPE,2
+the Cloth Trade of this Kingdome,ORG,2
+Officers,ORG,2
+Offices of Trust,ORG,2
+Author,ORG,2
+Extorsion,ORG,2
+Old Audley,ORG,2
+Old England,ORG,2
+Oleron,ORG,2
+Extrinſique,ORG,2
+the Cloth Trade of the,ORG,2
+Author,GPE,2
+the New-English Vessels,ORG,2
+Order,ORG,2
 Austria,GPE,2
-senate,ORG,2
-Errors,ORG,2
-Assurors,ORG,2
-Attaint,ORG,2
-the Banks of Madrill,ORG,2
-the State of Milan,ORG,2
-the Bank of England,ORG,2
-the Statute against Bankerupts,ORG,2
-Doors,ORG,2
-the Pepper Trade to England,ORG,1
-Tanquam,GPE,1
-Staple Towns,ORG,1
-the Public in Times of Necessity,ORG,1
-Specie,GPE,1
-these united Provinces,ORG,1
-this Treatise of Free,ORG,1
-this Bill of Exchange,ORG,1
-Sovereigns,GPE,1
-the house of commerce,ORG,1
-the Law of Nations,ORG,1
-the Seas Procurations,ORG,1
-The Efficient Cause,ORG,1
-times & trades,ORG,1
-the next Mart,ORG,1
-the Master of Counting Houses,ORG,1
-the Life of Trade,ORG,1
-the Masters Credit,ORG,1
-the Statute of Bankerupts,ORG,1
-the Occasions and Fashions of the Places,ORG,1
-Supersedias,GPE,1
-the New Company,ORG,1
-the Procurations or Commissions,ORG,1
-"the Seas, Merchants",ORG,1
-the Merchant Stranger,ORG,1
-Stealing,ORG,1
-the Master,ORG,1
-the Master of the,ORG,1
-Stoad,GPE,1
-Suretyship,ORG,1
-The Statute of Bankrupts,ORG,1
-Strangers,GPE,1
-Sun of the,ORG,1
-the Master of,ORG,1
-the Merchants-Aduenturers Trade,ORG,1
-Yong,GPE,1
-the Inuoyces of Merchants,ORG,1
-the Bearer of the Bill,ORG,1
-seruanda,GPE,1
-the Account of Profit,ORG,1
-Wager,ORG,1
+Order and Government,ORG,2
+Extraordinary Service,ORG,2
+Partners,ORG,2
+European Nations,ORG,2
+Passages,GPE,2
+Engineer,ORG,2
+Philoſophy,GPE,2
+Phirmaund,GPE,2
+Phoebus,ORG,2
+English Commodities,ORG,2
+Piety,GPE,2
+the Balancing of the Trade of the Nation,ORG,2
+Pipe-Staves,ORG,2
+Pipes-Staves,ORG,2
+Pirate,ORG,2
+"Assigned, Mortgages",ORG,2
+the People of England,ORG,2
+Places of India,ORG,2
+European Nation,ORG,2
+"Plant, Build,",ORG,2
+Assiento Contract,ORG,2
+Plantations as Trade,ORG,2
+Plate,GPE,2
+Encouragements to Trade,ORG,2
+Ploughs,GPE,2
+Emperors,ORG,2
+Poena Plus Petentium,ORG,2
+"Built, Fortified and Garrisoned three Forts",ORG,2
+the Pepper Trade to England,ORG,2
+Politique Exchange,ORG,2
+English Custom,GPE,2
+the Par of Exchange,ORG,2
+English Mariners,ORG,2
+Enlargement,ORG,2
+Patterne,ORG,2
+the Bearer of the Bill,ORG,2
+Peace,GPE,2
+Pearls,GPE,2
+Peasants,ORG,2
+Estate from Trade,ORG,2
+Penalty,ORG,2
+Essex,GPE,2
+People at Home,ORG,2
+People in Europe,ORG,2
+Esq,GPE,2
+Pepper Trade,ORG,2
+Pepper at Amsterdam,ORG,2
+Equity,ORG,2
+Equality and Equity,ORG,2
+Epiſt,ORG,2
+Epistle Dedicatory,ORG,2
+Persia Raw-silkes,ORG,2
+Persian Raw Silks,ORG,2
+Persian Rawsilke,ORG,2
+Personal Security,ORG,2
+Persons,ORG,2
+Perspicuity and Apparency of Euident Vtility,ORG,2
+"the Clothier, & the",ORG,2
+Vienna,GPE,2
+Bankerers,ORG,2
+Fleming,ORG,2
+Fancies,ORG,2
+Fisheries,ORG,2
+"Florence, Genoa",ORG,2
+the Commodities Imported,ORG,2
+the Common Libertie,ORG,2
+the Common Trade,ORG,2
+Norwaye,GPE,2
+New Mysteries in Trade,ORG,2
+New Castle,GPE,2
+Neighbour,ORG,2
+Norway Merchants,ORG,2
+Fermers,ORG,2
+the Companies Privileges and Immunities,ORG,2
+the Complaint of our Clothiers,ORG,2
+"Bakers, Brewers,",ORG,2
+Nocturnal Lucubrations,ORG,2
+"Fishermen, Fishermen",ORG,2
+Breath and Life,ORG,2
+Nerves,ORG,2
+Felony,ORG,2
+the Nations Trade: A Trade,ORG,2
+Newfoundland Fish,ORG,2
+Banker,ORG,2
+the Condigne Censure of the Lords,ORG,2
+Negative,ORG,2
+the burden & can,ORG,2
+Necessitas,ORG,2
+Nec,GPE,2
+the Mystery of Exchange,ORG,2
+Fame,ORG,2
+the firſt Exchange,ORG,2
+Nets,GPE,2
+the Company of Goldsmiths,ORG,2
+No Man Courts,ORG,2
+the Muscovia Company,ORG,2
+Nilus,GPE,2
+Fontainbleau,ORG,2
+"Netmakers,",ORG,2
+"Fishermen, Fowlers",ORG,2
+Nova Guinea,GPE,2
+the Mogul's Country,ORG,2
+Fishing-Ships,ORG,2
+the Mother of Invention,ORG,2
+Nouogrode,ORG,2
+Balsera,GPE,2
+the Banks of Madrill,ORG,1
+nec rerum natura,ORG,1
+the Imperial Royal,ORG,1
+the Ports of Marseilles,ORG,1
+the Rickx Doller of the Empire,ORG,1
+Walderswike,ORG,1
+the Exportation of Woollen Manufactures,ORG,1
+the united Provinces of the Low Countries,ORG,1
+china,GPE,1
+the Master and Owners in Charterparty,ORG,1
+"Walderswike, Sold, Yarnmouth,",ORG,1
+a United Stock,ORG,1
+probetur,GPE,1
+the Exportation of Considerable Quantities,ORG,1
+the united Provinces of the Low Country's,ORG,1
+the Retail of Cloth,ORG,1
+the Bank of Lions,ORG,1
+"the Customs, Tolls,",ORG,1
+the Roman Empire,GPE,1
+the Exchanges of Money,ORG,1
+the English Nation,ORG,1
+mensura,ORG,1
+the Books of Accounts,ORG,1
+the Body Politic of Trade,ORG,1
+"the Blood, Exchange",ORG,1
+meum & tuum,ORG,1
+mortalibus,ORG,1
+the Trade of Bengall,ORG,1
+the Inventors of New-Manufactures,ORG,1
+"the Belly, & not",ORG,1
+moſt,GPE,1
+the Inventors of New Manufactures,ORG,1
+natura informata,ORG,1
+the Counsell of Stephanus,ORG,1
+the Office of Regal,ORG,1
+navy,ORG,1
+the Valuation of Moneys,ORG,1
+the Roots of Trees for Fuel,ORG,1
+coin raised ▪ and foreign coin,ORG,1
+the Bearer of the,ORG,1
+Zeeland,GPE,1
+"Zoilus, Momus",ORG,1
+nec Ciuitas,ORG,1
+Warden,GPE,1
+the Ports of the East-Indies,ORG,1
+a New Stock,ORG,1
+the Increase of our Exportation,ORG,1
+the Exportation of our Woollen Manufacture,ORG,1
+the Owners and Seamen,ORG,1
+Wainscot,GPE,1
+the Eſſence of Naturall,ORG,1
+this Trade of the East-Indies,ORG,1
+the Corporation of the Muscouy Company,ORG,1
+causeth Princes,ORG,1
+the Warres of Pyrates,ORG,1
+the Grand Commission,ORG,1
+the Treatise of Exchanges,ORG,1
+this Trade in Spice,ORG,1
+the French Company,ORG,1
+the ſecond Exchange,ORG,1
+the Meridian of England,ORG,1
 the Authority of the Chancery to the Commissioners,ORG,1
-the Axis of the Common-wealth,ORG,1
-the Banker of Florence,ORG,1
-the Bills of Entries,ORG,1
-Thine,GPE,1
-the Bills of Exchange,ORG,1
-Voyage,ORG,1
-Vnion,ORG,1
-Vltra,GPE,1
-Virginia,GPE,1
-Vessels,ORG,1
-neuerthelesse,ORG,1
-netherlands Golden Riders,ORG,1
-Wareswil,ORG,1
-Wealth Felicity,ORG,1
-Weigh,ORG,1
-exchequer,ORG,1
-destroyeth,GPE,1
-Whereby Malynes,ORG,1
-de Constituto,ORG,1
-Wherefore Tiberius Caesar,ORG,1
-"Widows, Orphans",ORG,1
-christian Charity,ORG,1
-Wines,ORG,1
-bee ſubiect,ORG,1
-Zante,GPE,1
-Wonders,ORG,1
-Yong Merchants:,ORG,1
-the Capital of 5911,ORG,1
-the City of London,GPE,1
-the Council of the Admiralty,ORG,1
-the Estates General,ORG,1
-Three Distinction,ORG,1
-Time,ORG,1
-the Imprisonment of Men's Persons for Debt,ORG,1
+bin inuented & enacted,ORG,1
+"the Corn Trade, Tract",ORG,1
+the Workers in Worsted,ORG,1
+the Perſonall Exchange,ORG,1
+the Globe of Traffic and Trade,ORG,1
+the Consumption of foreign Commodities,ORG,1
+the Authority of Sovereign Princes,ORG,1
 the Gentry of England,ORG,1
-the Generals of Mints,ORG,1
-the Fleet for Nova Espagna,ORG,1
-Totall Summe,ORG,1
-the Experience and Confession of all Men,ORG,1
-Towne,GPE,1
-Towns,ORG,1
-Trade without Order or Gouernment,ORG,1
-"Trade, & the",ORG,1
-Yong Merchants,ORG,1
-Trades,ORG,1
-Transportation,ORG,1
-the Court of Merchants,ORG,1
-Treatise of Exchanges,ORG,1
-Tribune,ORG,1
-Troubles,ORG,1
-Trust,ORG,1
-Truſt,ORG,1
-the Empire &,ORG,1
-the Emperor Antonius,ORG,1
-the Emperor Adrian,ORG,1
-Turkey,GPE,1
-United Provinces,ORG,1
-the Efficient Cause,ORG,1
-Usurer,GPE,1
-Usurers,ORG,1
-Value,ORG,1
-Sovereign,ORG,1
-A Faculty Royal,ORG,1
-Societies and Companies,ORG,1
-Courts of Parliament,ORG,1
-Diamond,ORG,1
-"Debtor, & Cash Creditor",ORG,1
-Dealings and Combinations,ORG,1
-Dansicke the Doller,ORG,1
-Damages,ORG,1
-"Customs, Subsidies",ORG,1
-Customs of Merchants,ORG,1
-Custom of Merchants,ORG,1
-Curion Tribune,ORG,1
-Courts of Equity or Law,ORG,1
-Committee,ORG,1
-Court of King's Bench,ORG,1
-Courses,ORG,1
-Countries and Commonweals,ORG,1
-Countries,GPE,1
-Council,ORG,1
-Corporation & Orders for Trade,ORG,1
-"Contracts, Bills of Exchange",ORG,1
-Contracts of Commerce and Alliances with Princes and Governors,ORG,1
-Consequence,GPE,1
-"Divinations, Imprecations,",ORG,1
-Divine,ORG,1
-Divine Service,ORG,1
-Divines,ORG,1
-Genoa,GPE,1
-Geneva,GPE,1
-Geneuoises,ORG,1
-Florence,ORG,1
-Flaunders,ORG,1
-Families,ORG,1
+the Auditor's Office,ORG,1
+Virtue,GPE,1
+the Archdutchesse Commissioners &,ORG,1
+the Trade of the Kingdome,ORG,1
+the Warres of Germany,GPE,1
+the Archduke of Austria,ORG,1
+the Trade of the Merchants of the Staple,ORG,1
+the General Trade,ORG,1
+Vintner's Houses,ORG,1
+the Persian P. 7,ORG,1
+"the
+      Union",ORG,1
+armada,GPE,1
+tallow & hides,ORG,1
+the Politic Body of Trade,ORG,1
+the Factor of C.D.,ORG,1
+the Merchant Stranger,ORG,1
+"Wages, Victuals, Insurance, Interest",ORG,1
+Vſury,GPE,1
+Vt Insulae,ORG,1
+the Reservation of the Propriety,ORG,1
+the Ballāce of Trade,ORG,1
+causeth young,ORG,1
+causeth us,ORG,1
+this Office of Prior and Consuls,ORG,1
+Vintage,ORG,1
+the Trade of Raw-,ORG,1
+the High Court of Parliament,ORG,1
+the Merchant-Adventurers,ORG,1
+the Trade of Turkey,GPE,1
+Vsury,GPE,1
+Vsura,GPE,1
+the Haunce of ten marks,ORG,1
+a committee of council,ORG,1
+ruleth Commodities,ORG,1
+Voyages,ORG,1
+splendidius cogitari poterat,ORG,1
+this Treatise of Free,ORG,1
+aequum & bonum,ORG,1
+the Fountain of Money,ORG,1
+"an Association, Company,",ORG,1
+"starling, & whereas the exchange",ORG,1
+swalloweth,GPE,1
+martin,ORG,1
+the Course of Traffic,ORG,1
+the Inſtitution of the Art of Logick,ORG,1
+the Scope of Merchants,ORG,1
+the New Question,ORG,1
+the Treatise of The Canker of England's,ORG,1
+the Kingdome of Naples,GPE,1
+the Kingdom of Scotland,GPE,1
+"the States of Genovay, Florence",GPE,1
+fineness & Valuation,ORG,1
+the Customs and Impositions,ORG,1
+this Instance of Woollen Manufacture,ORG,1
+the Civilians Dardanary,ORG,1
+the Drapery of foreign Nations,ORG,1
+the Public Authority of Kings and Princes,ORG,1
+Wilfulnes,ORG,1
+the Statute against Bankerupts,ORG,1
+the Dutch Contract,ORG,1
+the Custom of Merchants,ORG,1
+the Rule of exchange,ORG,1
+the Statute for Clothing,ORG,1
+the Dutch Spice,ORG,1
+the Companies Advices,ORG,1
+the Custom House,ORG,1
+the City of Norenborough,GPE,1
+the King's Prerogative,ORG,1
+the Transportation of our 1,ORG,1
+"concord, &",ORG,1
+Whipping-Posts and Goals,ORG,1
+Wherein Prior and Consuls,ORG,1
+the City Usurers,ORG,1
+Whereby Colonies,ORG,1
+the Companies Customs,ORG,1
+the Manufactures of Silk,ORG,1
+the State of Milan,ORG,1
+"the Seas, Invention of the Porteullis",ORG,1
+the Setting of the Price,ORG,1
+Witnesses,GPE,1
+the Natural Exchange,ORG,1
+"the Clothing, P. 45",ORG,1
+the Life of the Law,ORG,1
+"the Cuſtome is000182.19.00Linnen Cloth, Mercery",ORG,1
+the Cuſtomes of the Kingdome,ORG,1
+the Clothing of the Kingdome,ORG,1
+the Publique Vtility,ORG,1
+this Notion of the Balance of Trade,ORG,1
+the London Assurance,ORG,1
+the Low Countries,ORG,1
+Woollen,GPE,1
+Woolegrower,ORG,1
+the Spanish Trade,ORG,1
+the Definition and Distribution of Monopoly,ORG,1
+the Customs and Impost,ORG,1
+the Letters of Credit,ORG,1
+the Public in Times of Necessity,ORG,1
+Wools,GPE,1
+the Lowness of the rate,ORG,1
+Woodashes,ORG,1
+the Dissolution of Societies,ORG,1
+the Staple Countries for Silks and Fine Linen,ORG,1
+the Staple Ports,ORG,1
+etiam efficit,ORG,1
+the Laws of Oleron,ORG,1
+vſe,ORG,1
+the Domestique Remote,ORG,1
+the Law of Nations,ORG,1
+the Main Trade,ORG,1
+the Citizens of Troynovant,ORG,1
+the Proverbial Text,ORG,1
+mari,GPE,1
+the Journal of Mr De Lange,ORG,1
+the Cruttenden East Indiaman,ORG,1
+the Profits of Trade,ORG,1
+kingdom,GPE,1
+legibus euertatur,ORG,1
+"the West Indies, & they",ORG,1
+the Judgement of the French King and Court,ORG,1
+coming &,ORG,1
+the Profits of Land,ORG,1
+the Court of Conscience,ORG,1
+the Eaſt Indies in Reals of Plate,ORG,1
+the the Imperial Law,ORG,1
+the Emperor 1000 Tomans,ORG,1
+come & dwell,ORG,1
+wil,ORG,1
+the united Low Provinces,ORG,1
+the Nobility of the Kingdome,ORG,1
+Wealth Felicity,ORG,1
+the Iustice of this Kingdome,ORG,1
+the Emporium o● the India Trade to Arabia,ORG,1
+the Master and Owners,ORG,1
+Wooll,ORG,1
+legibus fundata ciuitas,ORG,1
+the Brain (Exchange,ORG,1
+Waterfowl,GPE,1
+the Present State,ORG,1
+the English General,ORG,1
+the Iustice of the King and the Kingdome,ORG,1
+the Iustice of the KING,ORG,1
+the West Indies of Guatimalo,ORG,1
+the Occasions and Fashions of the Places,ORG,1
+Weigh,ORG,1
+the Thing Passive,ORG,1
+Weights,GPE,1
+Weights and Measures,ORG,1
+handiecrafts,GPE,1
+the Stock of the Kingdome,ORG,1
+the East India Goods,ORG,1
+the house of commons,ORG,1
+"house, & finding",ORG,1
+the Prouinciall Exchange,ORG,1
+"the Realm, & the merchandizing exchange",ORG,1
+the Rate of Interest,ORG,1
+the Chapter of Usury Politic,ORG,1
+the Stranger the Taker,ORG,1
+the Change of Lions,ORG,1
+the East-India Commodities,ORG,1
+imperio & commercio,ORG,1
+"the Change at Lions, Change at Lions",ORG,1
+the East-India Company or Trade,ORG,1
+the Nobility of this Kingdom,ORG,1
+West-India Hides,GPE,1
+the Proprietors of Land,ORG,1
+the Causes of the Decay of Trade,ORG,1
+the Mysteries of Personal and Provincial Exchanges,ORG,1
+the United Company of Merchants,ORG,1
+West Indies,ORG,1
+the KINGS Subiects,ORG,1
+the Rule of Equality and Equity,ORG,1
+the Testators Debts,ORG,1
+jamaica,GPE,1
+jamaica hath,ORG,1
+the Profits of the East-India Trade,ORG,1
+jerusalem,GPE,1
+the World where Exchange,ORG,1
+& Immunities,ORG,1
+Veteran Army,ORG,1
+Fermer,ORG,1
+Fashions,ORG,1
 Faith and Credit between Merchants,ORG,1
-Exchequer,ORG,1
+Facto,GPE,1
+Extrinsique,ORG,1
+Extravagants,ORG,1
+Extravagan,ORG,1
+Expenses of Time and Money,ORG,1
+Expense as Labour,ORG,1
+Excizes,ORG,1
 "Exchanges, Page 104",ORG,1
-Equity,ORG,1
+Exchange Active,ORG,1
+Exceſſe,GPE,1
+Euterpe,GPE,1
+Eustatia,GPE,1
+"Estate, Credit",ORG,1
+Equity and Conscience,ORG,1
+Equin,ORG,1
+Envy,ORG,1
+English Tradesmen and Artificers,ORG,1
+Fate,ORG,1
+Fieri,GPE,1
+English Herrings,GPE,1
+Fire-Arms,ORG,1
+Forreine,GPE,1
+Forraine Trade: The,ORG,1
+Forms of Government,ORG,1
+Formes of Former,ORG,1
+Forestallings,ORG,1
+Forestall or Forestallers,ORG,1
+Foreign Shipping,ORG,1
+Foreign Nations,ORG,1
+Force and Forts,ORG,1
+Force and Forms on the Land,ORG,1
+Force,ORG,1
+"Food, Raiment, War",ORG,1
+Flux,GPE,1
+Florence ▪ Rash's,ORG,1
+Fleece Wools,GPE,1
+Flaxe,ORG,1
+Flaxe,GPE,1
+Flanders ▪,ORG,1
+Fiſhing,ORG,1
+English Shipping and,ORG,1
+English Clothes,GPE,1
+King Ric,GPE,1
+Door,ORG,1
+Doller,ORG,1
+Doits,ORG,1
+Doctori,GPE,1
+Diſpar,ORG,1
+Disciplines,ORG,1
+Dioclesian,ORG,1
+Dicana,GPE,1
+Diabolicum,ORG,1
+Detriment,GPE,1
+Deptforde,ORG,1
+Depredations,ORG,1
+Denominations,ORG,1
+Denier,ORG,1
+Definitions and Diſtributions,ORG,1
+Defence and Trade,ORG,1
+Decompositum,ORG,1
+Decoctors,ORG,1
+Deck-Ships,ORG,1
+Debauched Seamen,ORG,1
+Dominion,ORG,1
+Douzaine,ORG,1
 English Bottoms,GPE,1
-Egypt,GPE,1
-Edicts and Proclamations,ORG,1
-East-India Trade,ORG,1
-East India Company,ORG,1
-E.F.,ORG,1
-E.F.,GPE,1
+Dragons,ORG,1
+England Northwards,ORG,1
+Enemy,ORG,1
+Employed in Foreign Trade,ORG,1
+Empires,ORG,1
+Emergencies and Alterations,ORG,1
+Embargos of Ships,ORG,1
+Efficient Causes,ORG,1
+Effications,ORG,1
+Edward the Third,ORG,1
+Edward VI cap,ORG,1
+East-India Silks,ORG,1
+East-India Merchants,ORG,1
+Eagle,ORG,1
+Dying,ORG,1
+Dutche,ORG,1
+Duke of Tuscaney,ORG,1
 Ducats,GPE,1
+Dropsies,GPE,1
 Driblets,GPE,1
-Conscience and Charity,ORG,1
-Coin of Christendom,ORG,1
-Gibelines,ORG,1
-Assurances,ORG,1
-Bays for these Bills of another,ORG,1
-Banks,GPE,1
-Bankers Factor,ORG,1
-Aſſes,GPE,1
-Authority for Law Causes,ORG,1
-Author,GPE,1
-Aueridges,ORG,1
-Aueridge,ORG,1
-Assuror,GPE,1
-Artificial,ORG,1
-Clothier,ORG,1
-Argument,GPE,1
-Arbitrators,ORG,1
-Antuerp the Factor,ORG,1
-Antuerp,GPE,1
-Ancestors,ORG,1
-Alterations,ORG,1
-Affair,ORG,1
-Account Creditor,ORG,1
-Accepted,ORG,1
-Becauſe the Cloth-trade,ORG,1
-Bills,GPE,1
+Fowle,GPE,1
+Freedome,ORG,1
+Front,ORG,1
+Imprison,ORG,1
+Importation,GPE,1
+Impaired,ORG,1
+Immunities and Privileges,ORG,1
+Immediat,ORG,1
+Illustrious,GPE,1
+Iliad,GPE,1
+Il entendle Par,ORG,1
+Iewes,ORG,1
+I. That Care,ORG,1
+I.,ORG,1
+Hydes,GPE,1
+Hundreths,ORG,1
+Humane,ORG,1
+Howbeit Exchange of Moneys,ORG,1
+Houſes,GPE,1
+Houſe,ORG,1
+Houses of Vendition,ORG,1
+Households,ORG,1
+Hos,ORG,1
+Impresa,GPE,1
+Improued,ORG,1
+Gain the Centre,ORG,1
+In Free Trade,ORG,1
+Key and Passage,ORG,1
+Key,ORG,1
+Kerseys and Tin,ORG,1
+Ix,ORG,1
+Iugglers,ORG,1
+Iudges & Parties,ORG,1
+Islands,GPE,1
+"Iron, Led, Tin",ORG,1
+Iron and Pitch,ORG,1
+Iota,ORG,1
+Interest Money,ORG,1
+Insomuch,GPE,1
+Inns of Court,ORG,1
+Innovations,ORG,1
+Iniuries,ORG,1
+Inhumanities,ORG,1
+Indigo Campeche,ORG,1
+Indict the Proprietors,ORG,1
+India Governors,ORG,1
+Honourable Councillors of State,ORG,1
+Honor,ORG,1
+Hom,GPE,1
+Holstein,GPE,1
+Graue Fathers of the Law,ORG,1
+Gown,ORG,1
+Governours,ORG,1
+Gottenburgh,GPE,1
+Goods,ORG,1
+Gold Mine,ORG,1
+Gloves,ORG,1
+Glory,ORG,1
+Gibraltar and Minorca,ORG,1
+Germany &,ORG,1
+Geometrical Axiom,ORG,1
+Gentu Princes,ORG,1
+Genoa,GPE,1
+Genes,ORG,1
+Generality,ORG,1
+General Rules,ORG,1
+Gates,ORG,1
+Gasgoigne Wines,ORG,1
+Galleries,ORG,1
+Graziers,ORG,1
+Great,ORG,1
+Great Whale ofGreat Whale,ORG,1
+Hanging,GPE,1
+Hollander,ORG,1
+Herodotus,ORG,1
+Hempe,ORG,1
+"Hemp, Flax",ORG,1
+Hebrew & Greek,ORG,1
+Heauen,GPE,1
+Hare,GPE,1
+Hanse Towns,ORG,1
+Hampshire,GPE,1
+Greenland Oil,ORG,1
+Hambrough ▪ Muscovia,GPE,1
+Hamborough,ORG,1
+Hague,GPE,1
+Growers and Clothiers,ORG,1
+Grower,ORG,1
+Groenland,GPE,1
+Grocery,ORG,1
+Greenland Trade,ORG,1
+Deadly Feude,ORG,1
+De Re Rustica,ORG,1
+De Contractibus Mercatorum,ORG,1
+Bordeaux,ORG,1
+Bocking,GPE,1
+Boat-Men and Freighters of Ships,ORG,1
+Blood,ORG,1
+Blood,GPE,1
+Blacks at Funerals,ORG,1
+Blackewalle,GPE,1
+Black Servants,ORG,1
 Bills of Lading,ORG,1
-Blank,ORG,1
-"Clothes, Colchester for Bayes",ORG,1
-Cicero,ORG,1
-Church,ORG,1
-Charity,ORG,1
-Chancery or Court of Equity,ORG,1
-Chair,ORG,1
+Bill of Exchange,ORG,1
+Bengall Silk,ORG,1
+Bengall,GPE,1
+Belly,ORG,1
+Bell,ORG,1
+Beggary,GPE,1
+Becauſe the Cloth-trade,ORG,1
+Beaver,GPE,1
+Beads,GPE,1
+Baſis,ORG,1
+Bays or Stuffs,ORG,1
+Boden,GPE,1
+Boters,ORG,1
+Cato,GPE,1
+Boulogne,GPE,1
 Cassyers,ORG,1
-Capital Debtor,ORG,1
-Capital,ORG,1
-Caligula,GPE,1
-CHAOS,ORG,1
-C.D. the Factor of Antuerpe,ORG,1
-C.D. the Factor,ORG,1
-Butler,ORG,1
-Bundles,GPE,1
-Brokeridge,ORG,1
-Brocadge,GPE,1
-Britain,GPE,1
-Borrador,GPE,1
-Geometrical,ORG,1
-Gloſſe,GPE,1
-Sinews,ORG,1
-Pari,ORG,1
-Priuiledges & Immunities,ORG,1
-Prison,GPE,1
-Powers and Authorities,ORG,1
-Power and Commission,ORG,1
-Policies os Insurance,ORG,1
-Pirates,GPE,1
-Peru,GPE,1
-Personal and Provincial: the Personal Exchange,ORG,1
-Parlements,ORG,1
-Pardons or Bulls,ORG,1
-"No Executor, Administrator, Surveyor,",ORG,1
-Par,ORG,1
-Orange,GPE,1
-Old,ORG,1
-Office,ORG,1
-Nuremberg,GPE,1
-Nudae,GPE,1
-Novices,ORG,1
-Norway,GPE,1
-Nobility,ORG,1
-Private,ORG,1
-Profit and Loss Creditor,ORG,1
-Prouince,ORG,1
-Prouiso,ORG,1
-Sight,ORG,1
-Sick,ORG,1
-Shipwreck,ORG,1
+Cask,ORG,1
+Carlisle,ORG,1
+Caput & Cerebrum,ORG,1
+Canton,GPE,1
+Cane,ORG,1
+Canaanites,ORG,1
+Calicoes,GPE,1
+Caesar Caesars,ORG,1
+Cacus Den,ORG,1
+Cacus,GPE,1
+CHAPTER V. OF BOUNTIES,ORG,1
+CHAPTER IV,ORG,1
+CHAPTER III,ORG,1
+Busphoon,GPE,1
+Bullion and Foreign Commodities,ORG,1
+Bulk of Staple Commodities,ORG,1
+British America,ORG,1
+Bounty,GPE,1
+Basis,ORG,1
+Barselona,GPE,1
+Barmuda Merchants,ORG,1
+Banks and Bankers o● Christendom,ORG,1
+Aristotle,GPE,1
+Ariadnae,ORG,1
+Argosies,ORG,1
+Arbitrium,ORG,1
+Arbitrement,ORG,1
+Arbitrator,ORG,1
+Antwerp,GPE,1
+Antuerp,ORG,1
+Antuerp,GPE,1
+Angola,GPE,1
+Andwarpe,GPE,1
+Ancient Office of Exchanges,ORG,1
+Ancient Gates,ORG,1
+Amicus Socrates,ORG,1
+Amicus Plato,ORG,1
+Amasis,ORG,1
+Alaxandria,GPE,1
+A Register for Assurances,ORG,1
+A Faculty Royal,ORG,1
+Aristotle,ORG,1
+Artesmen,ORG,1
+Artificial,GPE,1
+Assurors,ORG,1
+"Bankers, Maine of Free Trade",ORG,1
+Bankers and Exchangers,ORG,1
+Bankers &,ORG,1
+Bank at Lions,ORG,1
+Balances,ORG,1
+Auſtria,GPE,1
+Auritus Testis,ORG,1
+Aueridges,ORG,1
+Assuror,GPE,1
+Arts and Trade,ORG,1
+Assurances,ORG,1
+Assumption,ORG,1
+Associations,ORG,1
+Association,ORG,1
+Assignes,ORG,1
+Assertions,ORG,1
+Assembly of Parliament,ORG,1
+Asper,ORG,1
+Castille,GPE,1
+Cato,ORG,1
+Dart,GPE,1
+Counsel,GPE,1
+Cosmography,ORG,1
+Corporations of Merchants,ORG,1
+Corporate,ORG,1
+Coronat,GPE,1
+Corneited,ORG,1
+Corne,GPE,1
+Corn and Victuals,ORG,1
+Corints,GPE,1
+"Cordage, Ordnance, Victuals,",ORG,1
+"Cordage, Cables, Iron",ORG,1
+Coppenhaven,ORG,1
+Conveniencies,GPE,1
+"Contracts, Letters of Credit",ORG,1
+"Contracts, Bills of Exchange",ORG,1
+Contra,ORG,1
+Contingencies,ORG,1
+Contents,ORG,1
+Consumption Money,ORG,1
+Constraint,ORG,1
+Cotton,GPE,1
+Counsellors,ORG,1
+Cause of Sailing,ORG,1
+Counsellors of State,ORG,1
+Damages and Depredations,ORG,1
+Cuſtomes,GPE,1
+"Customs, Subsidies,",ORG,1
+"Customs, Subsidies",ORG,1
+"Customs, Imposts",ORG,1
+Customs of Commerce,ORG,1
+Customs and Trades,ORG,1
+Custom of Merchants,ORG,1
+Cumberland,ORG,1
+Cumberland,GPE,1
+Credit of Land,ORG,1
+Cousin,GPE,1
+Courts of Iustice,ORG,1
+Courts of Equity or Law,ORG,1
+Courts,ORG,1
+Court of Parliament of England,ORG,1
+Court of Exchequer,ORG,1
+Counſellers,ORG,1
+Country and Countries,ORG,1
+Constantine,ORG,1
+Consigned,ORG,1
+Conseruator at Lions,ORG,1
+Congo,GPE,1
+Clotheir,ORG,1
+Cloth and Stuffs,ORG,1
+Cloth Trade,ORG,1
+Cloth 24,ORG,1
+Cloath,ORG,1
+Climate,ORG,1
+Clapboord,GPE,1
+Cinnamon ▪,ORG,1
+Christian Nations,ORG,1
+Christendom Traffics,ORG,1
+Christ Church,ORG,1
+Choice,ORG,1
+Chancerie,GPE,1
+Chambermaid,ORG,1
+Centre,ORG,1
+Centeners',ORG,1
+Celebes,GPE,1
+Cauſe,ORG,1
+Causing the Exportation,ORG,1
+"Clothes, Tin, Led or Silks",ORG,1
+Clothiers and Artificers Petition,ORG,1
+Cobblers,ORG,1
+Commodities for Commodities,ORG,1
+Conditions and Casualties,ORG,1
+Complexion,ORG,1
+Comparison,ORG,1
+Companies or Associations,ORG,1
+Commutative,ORG,1
+Commodum,GPE,1
+"Commodities, Monies",ORG,1
+"Commodities, Money ▪ and Exchange",ORG,1
+Commodities & Monies,ORG,1
+Cochin-China,ORG,1
+Comisk,ORG,1
+Collonyes,GPE,1
+Colledge,ORG,1
+"Colchester, Harwich",ORG,1
+Coiners of Christendom,ORG,1
+Coined,ORG,1
+Coherence,ORG,1
+Cochineal,GPE,1
+King Henry 8),ORG,1
+King's Customs,ORG,1
+Vestiary,GPE,1
+Silk Manufactures,GPE,1
+Sileſia,GPE,1
+Silesia,GPE,1
+Sickness,ORG,1
+Si Vectigal,ORG,1
+Shore,ORG,1
+Ships for Trade & war,ORG,1
+Ships Essex,ORG,1
+Shiping,ORG,1
+Sheffield,GPE,1
+Sharp,ORG,1
 Seville,GPE,1
-Servants,ORG,1
-Serpent,GPE,1
-Scots,ORG,1
-Sayes,GPE,1
-Sauiours Argument,ORG,1
-Satan,GPE,1
-Salt,ORG,1
-SILVER,ORG,1
-Royal Exchange,ORG,1
-Revenge,ORG,1
-Restoration,ORG,1
+Servitude,GPE,1
+Select Council,ORG,1
+Security by Mortgage,ORG,1
+"Seamen, Fishermen and Shore",ORG,1
+"Seale, Otters, & many",ORG,1
+Scripture,ORG,1
+Scotch,GPE,1
+Schools,GPE,1
+Silk,ORG,1
+"Silks, Sugars, Spices, Fruits",ORG,1
+San Mallous,GPE,1
+Sleeping,ORG,1
+St. George,GPE,1
+Spirit of Traffic,ORG,1
+Sparta,GPE,1
+Spaniſh Proclamation,ORG,1
+Sovereignty,GPE,1
+"South
+      Carolina",GPE,1
+Soueraigue,ORG,1
+Somerset,GPE,1
+Solemn,GPE,1
+Society of English Merchants,ORG,1
+Societies of Merchants,ORG,1
+Societies and Corporations,ORG,1
+Societies,ORG,1
+Societies,GPE,1
+Societie,GPE,1
+Societas,ORG,1
+Societ,ORG,1
+"Smiths, &",ORG,1
+Smelts,ORG,1
+Sardinia,GPE,1
+"Salt, Interest vpon Interest",ORG,1
+Kingdoms,ORG,1
+Rawsilke,ORG,1
+Random of the Clothiers,ORG,1
+Raised & Rowsed mine Affections,ORG,1
+Purls & Oaeses,ORG,1
+Public Taxes,ORG,1
+Public Good,ORG,1
+Psittacorum Regio,ORG,1
+Provision,ORG,1
+Provincial Exchange,ORG,1
+Province,GPE,1
+Providence,GPE,1
+Protestation of HIS Sincerity,ORG,1
+Proprio,GPE,1
+Proportion,ORG,1
+Progress,ORG,1
+Prognosticators,ORG,1
+Profit,GPE,1
+Proclamation,GPE,1
+Privy Councillors of State,ORG,1
+Privileges which Land,ORG,1
+Raw Silk,ORG,1
+Reall,ORG,1
+Salisbury,GPE,1
+Rectam,GPE,1
+Run,ORG,1
+Royall Perſon,ORG,1
+Royal Exchanger,ORG,1
+Royal Commodity Tin,ORG,1
+Royal,GPE,1
+Rouen,GPE,1
+Rooves,ORG,1
+Romano,ORG,1
+Rolls,ORG,1
+"Roan, Lions",ORG,1
+Riecks,ORG,1
+Reſt,ORG,1
+Returned in Goods,ORG,1
+Rent and Value of Land,ORG,1
+Remote Cause,ORG,1
+Regulating of Manufactures,ORG,1
 Register of the same Assurances,ORG,1
 Register and Copies,ORG,1
-Ready Money,ORG,1
-Public,ORG,1
-No Man Courts,ORG,1
-Netherlands,GPE,1
-Gold and Silver Bullion,ORG,1
-Irons,ORG,1
-Latitat,ORG,1
-Latham,GPE,1
-Land for Security,ORG,1
-Kingdome,ORG,1
-King's Majesty's,ORG,1
-King's Customs,ORG,1
-King Henry,GPE,1
-Japan,GPE,1
-Irrevocable,ORG,1
-Intimations,ORG,1
-Nerves,ORG,1
-Interloping,ORG,1
-Influence and Authority,ORG,1
-Husbandry,ORG,1
-Horat,ORG,1
-Horace,GPE,1
-Hercules,GPE,1
-Habitations,ORG,1
-Great,GPE,1
-Gouernment,ORG,1
+Red Herrings,ORG,1
+St. Uvals,ORG,1
+St. Walls,GPE,1
+Stalks,GPE,1
+"Trade, & the",ORG,1
+Trade or Nation,ORG,1
+Trade of the Realm,ORG,1
+Trade of Woollen Manufactures,ORG,1
+Trade and Merchandise,ORG,1
+Totall Summe,ORG,1
+Tot,ORG,1
+Tonquin,GPE,1
+Tongues,ORG,1
+Throwsters,ORG,1
+Thouſand of the Merchants-Adventurers,ORG,1
+Thouſand,GPE,1
+This Par of Exchange,ORG,1
+Theocritus,ORG,1
+"Thebes, P. 68",GPE,1
+Theatre,ORG,1
+The Stock and Trade,ORG,1
+The Speciall Remote Cause,ORG,1
+The Nursery,ORG,1
+The Muscouy Company The Muscouy Company,ORG,1
+Trade or Shipping,ORG,1
+Trade:Free Trade,ORG,1
+Standing Lotaries,ORG,1
+Tradesmen,ORG,1
+Vesp,ORG,1
+Verbal,ORG,1
+Venice &,ORG,1
+VIII,ORG,1
+Undoing,ORG,1
+"Tynne, Iron, Lead,",ORG,1
+Turkish-Trade,ORG,1
+Turkey Silk,ORG,1
+Truce,GPE,1
+Troy,ORG,1
+Trenalls,ORG,1
+Trees,ORG,1
+Treaty,ORG,1
+Treatiſe,ORG,1
+Treatises and Conferences,ORG,1
+Treatise misnamed Free-Trade,ORG,1
+Train,GPE,1
+Trafique,GPE,1
+Traffics,GPE,1
+The Liberty of Coinage,ORG,1
+The Kingdome of England,ORG,1
+The Kingdom of France,GPE,1
+The Immediat Causes,ORG,1
+Surveyed,GPE,1
+Supposed,GPE,1
+Sumptuary,ORG,1
+Suetonius,ORG,1
+Success,ORG,1
+Substantial,GPE,1
+Subscriptions,ORG,1
+Subscription,ORG,1
+Strong,GPE,1
+Strangers,ORG,1
+Strand,GPE,1
+Stones,ORG,1
+Stock of Sheep,ORG,1
+Stiver,GPE,1
+Statute Laws,ORG,1
+Statin,GPE,1
+Starving,GPE,1
+Star-chamber,ORG,1
+Star,ORG,1
+Sweathen,GPE,1
+Sycos,ORG,1
+Sympathy and Compassion,ORG,1
+Testis,GPE,1
+The Grand Commission for Trade,ORG,1
+The Fertility of France,ORG,1
+The East India Trade,ORG,1
+The Companies Agents,ORG,1
+The Bank of England,ORG,1
+The Abatement of Interest,ORG,1
+"Text, & make",ORG,1
+Texell,ORG,1
+Tent or Pavilion,ORG,1
+THE Monies of Christendom,ORG,1
+Temporal,ORG,1
+Taverns,ORG,1
+Tastes &,ORG,1
+Tassati,GPE,1
+Tartar,ORG,1
+Tangier,ORG,1
+Tall & Lusty Shipping,ORG,1
+Tackling,GPE,1
+Privileges & Immunities,ORG,1
+Private Men,ORG,1
+Princes and Commonweals,ORG,1
+Military Virtue,GPE,1
+Meum & Tuum,ORG,1
+Messina,GPE,1
+Merchants Adventurers of England,ORG,1
+"Merchandizing, Trade or Shipping",ORG,1
+"Merchandizing, Trade",ORG,1
+Mensa,ORG,1
+Men and Women,ORG,1
+"Medines, & paid",ORG,1
+Maxim,ORG,1
+Materia & forma,ORG,1
+Mariner,ORG,1
+Marcus Antoninus,GPE,1
+Marcelles,GPE,1
+Manufacture of Bl●w Cloth,ORG,1
+Manners,GPE,1
+Malynes,ORG,1
+Malacca,GPE,1
+Maieſties Records,ORG,1
+Magiſtrates,GPE,1
+Middleſex,GPE,1
+Minorca,ORG,1
+Ne,ORG,1
+Mone,ORG,1
+Naturalisation,GPE,1
+Natural,ORG,1
+Native Country,ORG,1
+National Inconveniencies,ORG,1
+Nantes,GPE,1
+NATIONS,ORG,1
+Muscovia,GPE,1
+Muscovado,GPE,1
+Munition and Provisions,ORG,1
+Multitude,GPE,1
+Mr Du Tot,ORG,1
+Movit Cornicula,ORG,1
+Morliaix,ORG,1
+Morea,GPE,1
+Moravia,GPE,1
+Monopolies,ORG,1
+Money to Usury,ORG,1
+Money as Men,ORG,1
+Money and Bullion,ORG,1
+"Madrill, Lions",ORG,1
+"Madril, Lions, Civil,",ORG,1
+Madeira,ORG,1
+Madeira,GPE,1
+Leaden,GPE,1
+Le grand party,ORG,1
+Laws of Oleron,ORG,1
+Lawnes,ORG,1
+Latins,ORG,1
+Latine,ORG,1
+Las,GPE,1
+Language,GPE,1
+Land-Armies,ORG,1
+Land or Take,ORG,1
+Land and Ship Goods,ORG,1
+Land and Interest of Money,ORG,1
+Land Commodities,ORG,1
+L,GPE,1
+"Knowledge, Obedience",ORG,1
+Knotty,ORG,1
+Knights,ORG,1
+Kingston,GPE,1
+Kings Letters,ORG,1
+Lease,ORG,1
+Lecture,ORG,1
+Legal Obligations,ORG,1
+Lion Dollars,ORG,1
+Machiavel,ORG,1
+Macedon,GPE,1
+Mace,ORG,1
+Lucullus,GPE,1
+Lotaries,GPE,1
+Looke,ORG,1
+"Logwood, Uncertain Trade for Indigo",ORG,1
+Liver,GPE,1
+Linen Manufacture,ORG,1
+Leiden,GPE,1
+Linen,GPE,1
 Liedger,ORG,1
-Limitation of Letters of Credit,ORG,1
-Lions,ORG,1
-Lords,ORG,1
-Negotiations,ORG,1
-Navigation,ORG,1
-N.W.,ORG,1
-N.,ORG,1
-A Register for Assurances,ORG,1
-Mount of Charity,ORG,1
-Monies,ORG,1
-Mints,ORG,1
-Mine,ORG,1
-Milner,ORG,1
-Mexico,GPE,1
-Messacaria,GPE,1
-Merchants Bills,ORG,1
-Merchant's Courts,ORG,1
-Merchant,ORG,1
-Medalia,ORG,1
-Medalia,GPE,1
-Manufactures,GPE,1
-Lumbards',ORG,1
-truſt,ORG,1
+Licence,ORG,1
+Licence,GPE,1
+Liberty and Government,ORG,1
+Levant Wines,ORG,1
+Lending,GPE,1
+Lender,ORG,1
+Naviculae,ORG,1
+Nec,ORG,1
+Princes Jewels,ORG,1
+Pietie,GPE,1
+Personnall Exchange,ORG,1
+Personal and Provincial: the Personal Exchange,ORG,1
+Pernambucco,GPE,1
+Perinthia,GPE,1
+"Pepper, Indigo",ORG,1
+Pepper,GPE,1
+Penny,ORG,1
+Pennsylvania,GPE,1
+Pelongs,ORG,1
+Pawne,ORG,1
+Paulus Aemilius,ORG,1
+Patroclus,GPE,1
+Patriots,ORG,1
+Patentees,ORG,1
+Passive,ORG,1
+Partnership by Contract,ORG,1
+Parlements,ORG,1
+Parallel,ORG,1
+Paradoxical,ORG,1
+"Philip, Dollars",ORG,1
+Pilots,ORG,1
+Neighbor Countries,ORG,1
+Plantation Sugars,ORG,1
+Princes Armies,ORG,1
+Presents,ORG,1
+Prerogatives,ORG,1
+Prerogative Royal,ORG,1
+Preemption of Tin,ORG,1
+Poverty,GPE,1
+Pounds,ORG,1
+Positive Exchange,ORG,1
+Position,ORG,1
+Portugal Sugars,ORG,1
+Portugal Merchants,ORG,1
+Populousness,ORG,1
+Pomerland,GPE,1
+Politic Government,ORG,1
+Policy and Induſtry,ORG,1
+Policy,GPE,1
+Policies os Insurance,ORG,1
+Plenty,ORG,1
+Platoe,ORG,1
+Par of exchange,ORG,1
+Pampflet,ORG,1
+Palpable Contradiction,ORG,1
+Palermo,GPE,1
+Nuremberg,GPE,1
+"Number of Apprentices,",ORG,1
+Nullum,ORG,1
+Nullo,ORG,1
+Nudum Pactum,ORG,1
+& Philip,ORG,1
+Notary,GPE,1
+Notariall,GPE,1
+"Norwich, Colcheſter",ORG,1
+Northwest,ORG,1
+Normandy,GPE,1
+Norenbourgh,GPE,1
+Noble Vocation requireth,ORG,1
+Noble Personages,ORG,1
+Neſhech,ORG,1
+New York,GPE,1
+New Stock,ORG,1
+New Jersey,GPE,1
+Netherlandes,ORG,1
+Nutmegs 3 s,ORG,1
+Oars,ORG,1
+Occidental,ORG,1
+Our Prerogative Royal,ORG,1
+Palace,ORG,1
+Painful,ORG,1
+PLato,ORG,1
+Owles,GPE,1
+Outwards,ORG,1
+Our said City of Rouen,GPE,1
+Our privy Council,ORG,1
+Our Regalities,ORG,1
+Our Court of Parliament,ORG,1
+Occupations,ORG,1
+Orleans & Burgundy,ORG,1
+Original Stock,ORG,1
+Oriental Pearls,ORG,1
+Orford,ORG,1
+Oranges,ORG,1
+Oppresse,GPE,1
+Opinions,ORG,1
+Oculatus,ORG,1
+ſo happy & hopefull,ORG,1
